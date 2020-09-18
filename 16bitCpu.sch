@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -617,4 +617,24 @@ F35 "A15" O R 10300 8100 50
 F36 "~AO" I R 10300 5850 50 
 F37 "~AI" I R 10300 5750 50 
 $EndSheet
+$Sheet
+S 3250 700  1850 750 
+U 5F75E433
+F0 "clock" 50
+F1 "clock.sch" 50
+F2 "HLT" I R 5100 800 50 
+F3 "~CLK" O R 5100 950 50 
+F4 "CLK" O R 5100 1050 50 
+$EndSheet
+Wire Wire Line
+	5100 1050 9400 1050
+Wire Wire Line
+	9400 1050 9400 3500
+Wire Wire Line
+	9400 3500 9600 3500
+Wire Wire Line
+	9400 3500 9400 6250
+Wire Wire Line
+	9400 6250 9600 6250
+Connection ~ 9400 3500
 $EndSCHEMATC
