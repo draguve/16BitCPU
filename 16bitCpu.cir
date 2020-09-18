@@ -1,0 +1,14 @@
+.title KiCad schematic
+U2 GND GND Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ /resgister/CLK GND /resgister/AI /resgister/AI /register b/Bus12 /register b/Bus2 /register b/Bus1 /register b/Bus0 /resgister/CLR +5V 74LS173
+U1 +5V Net-_U1-Pad2_ Net-_U1-Pad3_ Net-_U1-Pad4_ Net-_U1-Pad5_ Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ GND /register b/Bus5 /register b/Bus6 /register b/Bus5 /register b/Bus4 /register b/Bus12 /register b/Bus2 /register b/Bus1 /register b/Bus0 /resgister/AO +5V 74LS245
+U6 GND GND Net-_U4-Pad6_ Net-_U4-Pad7_ Net-_U4-Pad8_ Net-_U4-Pad9_ /resgister/CLK GND /resgister/AI /resgister/AI /register b/Bus15 /register b/Bus14 /register b/Bus13 /register b/Bus12 /resgister/CLR +5V 74LS173
+U5 GND GND Net-_U4-Pad2_ Net-_U4-Pad3_ Net-_U4-Pad4_ Net-_U4-Pad5_ /resgister/CLK GND /resgister/AI /resgister/AI /register b/Bus11 /register b/Bus10 /register b/Bus9 /register b/Bus8 /resgister/CLR +5V 74LS173
+U3 GND GND Net-_U1-Pad6_ Net-_U1-Pad7_ Net-_U1-Pad8_ Net-_U1-Pad9_ /resgister/CLK GND /resgister/AI /resgister/AI /register b/Bus5 /register b/Bus6 /register b/Bus5 /register b/Bus4 /resgister/CLR +5V 74LS173
+U4 +5V Net-_U4-Pad2_ Net-_U4-Pad3_ Net-_U4-Pad4_ Net-_U4-Pad5_ Net-_U4-Pad6_ Net-_U4-Pad7_ Net-_U4-Pad8_ Net-_U4-Pad9_ GND /register b/Bus15 /register b/Bus14 /register b/Bus13 /register b/Bus12 /register b/Bus11 /register b/Bus10 /register b/Bus9 /register b/Bus8 /resgister/AO +5V 74LS245
+U8 GND GND Net-_U7-Pad2_ Net-_U7-Pad3_ Net-_U7-Pad4_ Net-_U7-Pad5_ /register b/CLK GND /register b/AI /register b/AI /register b/Bus12 /register b/Bus2 /register b/Bus1 /register b/Bus0 /register b/CLR +5V 74LS173
+U7 +5V Net-_U7-Pad2_ Net-_U7-Pad3_ Net-_U7-Pad4_ Net-_U7-Pad5_ Net-_U7-Pad6_ Net-_U7-Pad7_ Net-_U7-Pad8_ Net-_U7-Pad9_ GND /register b/Bus5 /register b/Bus6 /register b/Bus5 /register b/Bus4 /register b/Bus12 /register b/Bus2 /register b/Bus1 /register b/Bus0 /register b/AO +5V 74LS245
+U12 GND GND Net-_U10-Pad6_ Net-_U10-Pad7_ Net-_U10-Pad8_ Net-_U10-Pad9_ /register b/CLK GND /register b/AI /register b/AI /register b/Bus15 /register b/Bus14 /register b/Bus13 /register b/Bus12 /register b/CLR +5V 74LS173
+U11 GND GND Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ /register b/CLK GND /register b/AI /register b/AI /register b/Bus11 /register b/Bus10 /register b/Bus9 /register b/Bus8 /register b/CLR +5V 74LS173
+U9 GND GND Net-_U7-Pad6_ Net-_U7-Pad7_ Net-_U7-Pad8_ Net-_U7-Pad9_ /register b/CLK GND /register b/AI /register b/AI /register b/Bus5 /register b/Bus6 /register b/Bus5 /register b/Bus4 /register b/CLR +5V 74LS173
+U10 +5V Net-_U10-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ Net-_U10-Pad5_ Net-_U10-Pad6_ Net-_U10-Pad7_ Net-_U10-Pad8_ Net-_U10-Pad9_ GND /register b/Bus15 /register b/Bus14 /register b/Bus13 /register b/Bus12 /register b/Bus11 /register b/Bus10 /register b/Bus9 /register b/Bus8 /register b/AO +5V 74LS245
+.end
