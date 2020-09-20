@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -637,4 +637,10 @@ Wire Wire Line
 Wire Wire Line
 	9400 6250 9600 6250
 Connection ~ 9400 3500
+$Sheet
+S 7150 4400 700  2350
+U 5F681977
+F0 "RAM" 50
+F1 "RAM.sch" 50
+$EndSheet
 $EndSCHEMATC
