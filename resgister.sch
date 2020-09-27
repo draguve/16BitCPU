@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 7
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -642,44 +642,6 @@ Wire Wire Line
 Connection ~ 6500 8600
 Wire Wire Line
 	6500 8600 10200 8600
-Text HLabel 1300 600  0    50   Input ~ 0
-CLK
-Text HLabel 1300 850  0    50   3State ~ 0
-Bus0
-Text HLabel 1350 8600 0    50   Input ~ 0
-~AO
-Text HLabel 1350 7750 0    50   Input ~ 0
-CLR
-Text HLabel 1300 950  0    50   3State ~ 0
-Bus1
-Text HLabel 1300 1050 0    50   3State ~ 0
-Bus2
-Text HLabel 1300 1150 0    50   3State ~ 0
-Bus3
-Text HLabel 1300 1250 0    50   3State ~ 0
-Bus4
-Text HLabel 1300 1350 0    50   3State ~ 0
-Bus5
-Text HLabel 1300 1450 0    50   3State ~ 0
-Bus6
-Text HLabel 1300 1550 0    50   3State ~ 0
-Bus7
-Text HLabel 1300 1650 0    50   3State ~ 0
-Bus8
-Text HLabel 1300 1750 0    50   3State ~ 0
-Bus9
-Text HLabel 1300 1850 0    50   3State ~ 0
-Bus10
-Text HLabel 1300 1950 0    50   3State ~ 0
-Bus11
-Text HLabel 1300 2050 0    50   3State ~ 0
-Bus12
-Text HLabel 1300 2150 0    50   3State ~ 0
-Bus13
-Text HLabel 1300 2250 0    50   3State ~ 0
-Bus14
-Text HLabel 1300 2350 0    50   3State ~ 0
-Bus15
 $Comp
 L 74xx:74LS173 U?
 U 1 1 5F6AAB55
@@ -1011,8 +973,6 @@ Text HLabel 1300 950  0    50   3State ~ 0
 Bus1
 Text HLabel 1300 1050 0    50   3State ~ 0
 Bus2
-Text HLabel 1300 1150 0    50   3State ~ 0
-Bus3
 Text HLabel 1300 1250 0    50   3State ~ 0
 Bus4
 Text HLabel 1300 1350 0    50   3State ~ 0
@@ -1035,8 +995,6 @@ Text HLabel 1300 2150 0    50   3State ~ 0
 Bus13
 Text HLabel 1300 2250 0    50   3State ~ 0
 Bus14
-Text HLabel 1300 2350 0    50   3State ~ 0
-Bus15
 Connection ~ 3600 4350
 Connection ~ 4400 4850
 Connection ~ 2600 4850
@@ -1287,8 +1245,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 7500 9450 4900
 Connection ~ 9450 4900
-Text HLabel 1400 8100 0    50   Input ~ 0
-~AI
 $Comp
 L power:+5V #PWR?
 U 1 1 5F7355A7
@@ -1310,4 +1266,12 @@ F 3 "" H 1700 3500 50  0001 C CNN
 $EndComp
 Text HLabel 1350 7750 0    50   Input ~ 0
 CLR
+Text HLabel 1300 1150 0    50   3State ~ 0
+Bus3
+Text HLabel 1400 8100 0    50   Input ~ 0
+~AI
+Text HLabel 1350 8600 0    50   Input ~ 0
+~AO
+Text HLabel 1300 2350 0    50   3State ~ 0
+Bus15
 $EndSCHEMATC
