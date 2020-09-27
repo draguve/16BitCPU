@@ -607,85 +607,53 @@ Connection ~ 6100 10150
 Wire Wire Line
 	6100 10150 6100 11200
 Connection ~ 6100 11200
-Wire Wire Line
-	6100 11200 6100 12000
 Connection ~ 6150 7300
 Connection ~ 6150 10050
 Connection ~ 6150 11250
-Wire Wire Line
-	6150 11250 6150 12000
 Connection ~ 6200 7200
 Connection ~ 6200 9950
 Wire Wire Line
 	6200 9950 6200 10150
 Connection ~ 6200 11300
-Wire Wire Line
-	6200 11300 6200 12000
 Connection ~ 6250 7100
 Connection ~ 6250 9850
 Connection ~ 6250 11350
-Wire Wire Line
-	6250 11350 6250 12000
 Connection ~ 6300 7000
 Connection ~ 6300 9750
 Connection ~ 6300 11400
-Wire Wire Line
-	6300 11400 6300 12000
 Connection ~ 6350 6900
 Connection ~ 6350 9650
 Connection ~ 6350 11450
-Wire Wire Line
-	6350 11450 6350 12000
 Connection ~ 6400 6800
 Connection ~ 6400 9550
 Connection ~ 6400 11500
-Wire Wire Line
-	6400 11500 6400 12000
 Connection ~ 6450 6700
 Connection ~ 6450 9450
 Connection ~ 6450 11550
-Wire Wire Line
-	6450 11550 6450 12000
 Connection ~ 6500 6600
 Connection ~ 6500 9350
 Connection ~ 6500 11600
-Wire Wire Line
-	6500 11600 6500 12000
 Connection ~ 6550 6500
 Connection ~ 6550 9250
 Connection ~ 6550 11650
-Wire Wire Line
-	6550 11650 6550 12000
 Connection ~ 6600 6400
 Connection ~ 6600 9150
 Connection ~ 6600 11700
-Wire Wire Line
-	6600 11700 6600 12000
 Connection ~ 6650 6300
 Connection ~ 6650 9050
 Connection ~ 6650 11750
-Wire Wire Line
-	6650 11750 6650 12000
 Connection ~ 6700 6200
 Connection ~ 6700 8950
 Connection ~ 6700 11800
-Wire Wire Line
-	6700 11800 6700 12000
 Connection ~ 6750 6100
 Connection ~ 6750 8850
 Connection ~ 6750 11850
-Wire Wire Line
-	6750 11850 6750 12000
 Connection ~ 6800 6000
 Connection ~ 6800 8750
 Connection ~ 6800 11900
-Wire Wire Line
-	6800 11900 6800 12000
 Connection ~ 6850 5900
 Connection ~ 6850 8650
 Connection ~ 6850 11950
-Wire Wire Line
-	6850 11950 6850 12000
 Wire Wire Line
 	6200 10150 6100 10150
 Wire Wire Line
@@ -871,4 +839,36 @@ Wire Wire Line
 Connection ~ 6950 1950
 Wire Wire Line
 	6950 1950 8150 1950
+Wire Wire Line
+	6850 11950 6850 16000
+Wire Wire Line
+	6800 11900 6800 16000
+Wire Wire Line
+	6750 11850 6750 16000
+Wire Wire Line
+	6700 11800 6700 16000
+Wire Wire Line
+	6650 11750 6650 16000
+Wire Wire Line
+	6600 11700 6600 16000
+Wire Wire Line
+	6550 11650 6550 16000
+Wire Wire Line
+	6500 11600 6500 16000
+Wire Wire Line
+	6450 11550 6450 16000
+Wire Wire Line
+	6400 11500 6400 16000
+Wire Wire Line
+	6350 11450 6350 16000
+Wire Wire Line
+	6300 11400 6300 16000
+Wire Wire Line
+	6250 11350 6250 16000
+Wire Wire Line
+	6200 11300 6200 16000
+Wire Wire Line
+	6150 11250 6150 16000
+Wire Wire Line
+	6100 11200 6100 16000
 $EndSCHEMATC
