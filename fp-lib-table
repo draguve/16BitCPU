@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ROM)(type KiCad)(uri ${KIPRJMOD}/SymbolLibs/ROM)(options "")(descr ""))
+)
