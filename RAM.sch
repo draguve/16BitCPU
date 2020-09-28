@@ -188,7 +188,7 @@ Connection ~ 9800 2100
 Wire Wire Line
 	8150 6200 8150 6850
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE8E9
 P 7450 4350
 AR Path="/5F6DE8E9" Ref="#PWR?"  Part="1" 
@@ -208,7 +208,7 @@ F 3 "" H 7450 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE8EF
 P 8300 4350
 AR Path="/5F6DE8EF" Ref="#PWR?"  Part="1" 
@@ -228,7 +228,7 @@ F 3 "" H 8300 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE8F5
 P 6750 5700
 AR Path="/5F6DE8F5" Ref="#PWR?"  Part="1" 
@@ -248,7 +248,7 @@ F 3 "" H 6750 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE8FB
 P 2650 4900
 AR Path="/5F6DE8FB" Ref="#PWR?"  Part="1" 
@@ -268,7 +268,7 @@ F 3 "" H 2650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE901
 P 3350 3550
 AR Path="/5F6DE901" Ref="#PWR?"  Part="1" 
@@ -288,7 +288,7 @@ F 3 "" H 3350 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE907
 P 4200 3550
 AR Path="/5F6DE907" Ref="#PWR?"  Part="1" 
@@ -308,7 +308,7 @@ F 3 "" H 4200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE90D
 P 4450 4900
 AR Path="/5F6DE90D" Ref="#PWR?"  Part="1" 
@@ -328,7 +328,7 @@ F 3 "" H 4450 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE913
 P 5850 4350
 AR Path="/5F6DE913" Ref="#PWR?"  Part="1" 
@@ -348,7 +348,7 @@ F 3 "" H 5850 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE919
 P 8550 5700
 AR Path="/5F6DE919" Ref="#PWR?"  Part="1" 
@@ -368,7 +368,7 @@ F 3 "" H 8550 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE91F
 P 10100 4350
 AR Path="/5F6DE91F" Ref="#PWR?"  Part="1" 
@@ -388,7 +388,7 @@ F 3 "" H 10100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE925
 P 6000 3550
 AR Path="/5F6DE925" Ref="#PWR?"  Part="1" 
@@ -419,7 +419,7 @@ Wire Wire Line
 	5100 3050 5200 3050
 Connection ~ 5200 3050
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE931
 P 4300 2850
 AR Path="/5F6DE931" Ref="#PWR?"  Part="1" 
@@ -454,7 +454,7 @@ Wire Wire Line
 	9200 3850 9300 3850
 Connection ~ 9300 3850
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE940
 P 7850 3700
 AR Path="/5F6DE940" Ref="#PWR?"  Part="1" 
@@ -575,7 +575,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 4850 7150 5350
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F6DE9AB
 P 3550 4900
 AR Path="/5F6DE9AB" Ref="U?"  Part="1" 
@@ -595,7 +595,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 3550 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS245 U?
+L 16bitCpu-rescue:74LS245-74xx U?
 U 1 1 5F6DE9B1
 P 2550 3550
 AR Path="/5F6DE9B1" Ref="U?"  Part="1" 
@@ -615,7 +615,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 2550 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F6DE9B7
 P 9200 4350
 AR Path="/5F6DE9B7" Ref="U?"  Part="1" 
@@ -635,7 +635,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 9200 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE9BD
 P 7450 4350
 AR Path="/5F6DE9BD" Ref="#PWR?"  Part="1" 
@@ -655,7 +655,7 @@ F 3 "" H 7450 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE9C3
 P 8300 4350
 AR Path="/5F6DE9C3" Ref="#PWR?"  Part="1" 
@@ -675,7 +675,7 @@ F 3 "" H 8300 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE9C9
 P 6750 5700
 AR Path="/5F6DE9C9" Ref="#PWR?"  Part="1" 
@@ -695,7 +695,7 @@ F 3 "" H 6750 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE9CF
 P 2650 4900
 AR Path="/5F6DE9CF" Ref="#PWR?"  Part="1" 
@@ -715,7 +715,7 @@ F 3 "" H 2650 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE9D5
 P 3350 3550
 AR Path="/5F6DE9D5" Ref="#PWR?"  Part="1" 
@@ -735,7 +735,7 @@ F 3 "" H 3350 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DE9DB
 P 4200 3550
 AR Path="/5F6DE9DB" Ref="#PWR?"  Part="1" 
@@ -755,7 +755,7 @@ F 3 "" H 4200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE9E1
 P 1750 3550
 AR Path="/5F6DE9E1" Ref="#PWR?"  Part="1" 
@@ -775,7 +775,7 @@ F 3 "" H 1750 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE9E7
 P 4450 4900
 AR Path="/5F6DE9E7" Ref="#PWR?"  Part="1" 
@@ -795,7 +795,7 @@ F 3 "" H 4450 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE9ED
 P 5850 4350
 AR Path="/5F6DE9ED" Ref="#PWR?"  Part="1" 
@@ -815,7 +815,7 @@ F 3 "" H 5850 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE9F3
 P 8550 5700
 AR Path="/5F6DE9F3" Ref="#PWR?"  Part="1" 
@@ -835,7 +835,7 @@ F 3 "" H 8550 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE9F9
 P 10100 4350
 AR Path="/5F6DE9F9" Ref="#PWR?"  Part="1" 
@@ -855,7 +855,7 @@ F 3 "" H 10100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DE9FF
 P 6000 3550
 AR Path="/5F6DE9FF" Ref="#PWR?"  Part="1" 
@@ -875,7 +875,7 @@ F 3 "" H 6000 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DEA05
 P 4300 2850
 AR Path="/5F6DEA05" Ref="#PWR?"  Part="1" 
@@ -895,7 +895,7 @@ F 3 "" H 4300 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F6DEA0B
 P 7850 3700
 AR Path="/5F6DEA0B" Ref="#PWR?"  Part="1" 
@@ -952,7 +952,7 @@ Connection ~ 3650 4400
 Connection ~ 4450 4900
 Connection ~ 2650 4900
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F6DEA26
 P 7650 5700
 AR Path="/5F6DEA26" Ref="U?"  Part="1" 
@@ -972,7 +972,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 7650 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F6DEA2C
 P 5100 3550
 AR Path="/5F6DEA2C" Ref="U?"  Part="1" 
@@ -994,7 +994,7 @@ $EndComp
 Wire Wire Line
 	6150 4850 6150 6950
 $Comp
-L 74xx:74LS245 U?
+L 16bitCpu-rescue:74LS245-74xx U?
 U 1 1 5F6DEA34
 P 6650 4350
 AR Path="/5F6DEA34" Ref="U?"  Part="1" 
@@ -1113,7 +1113,7 @@ Connection ~ 9200 5100
 Wire Wire Line
 	9200 5100 9800 5100
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DEAA3
 P 1750 3550
 AR Path="/5F6DEAA3" Ref="#PWR?"  Part="1" 
@@ -1394,9 +1394,11 @@ Wire Wire Line
 	11700 4800 11750 4800
 Connection ~ 11700 7650
 $Comp
-L power:+5V #PWR0134
+L 16bitCpu-rescue:+5V-power #PWR0134
 U 1 1 60204631
 P 12150 3000
+AR Path="/60204631" Ref="#PWR0134"  Part="1" 
+AR Path="/5F681977/60204631" Ref="#PWR0134"  Part="1" 
 F 0 "#PWR0134" H 12150 2850 50  0001 C CNN
 F 1 "+5V" H 12165 3173 50  0000 C CNN
 F 2 "" H 12150 3000 50  0001 C CNN
@@ -1405,9 +1407,11 @@ F 3 "" H 12150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0136
+L 16bitCpu-rescue:+5V-power #PWR0136
 U 1 1 602074BD
 P 12200 5850
+AR Path="/602074BD" Ref="#PWR0136"  Part="1" 
+AR Path="/5F681977/602074BD" Ref="#PWR0136"  Part="1" 
 F 0 "#PWR0136" H 12200 5700 50  0001 C CNN
 F 1 "+5V" H 12215 6023 50  0000 C CNN
 F 2 "" H 12200 5850 50  0001 C CNN
@@ -1422,9 +1426,11 @@ Wire Wire Line
 Wire Wire Line
 	12200 5500 12200 5550
 $Comp
-L power:GND #PWR0135
+L 16bitCpu-rescue:GND-power #PWR0135
 U 1 1 6038BAE8
 P 12200 5600
+AR Path="/6038BAE8" Ref="#PWR0135"  Part="1" 
+AR Path="/5F681977/6038BAE8" Ref="#PWR0135"  Part="1" 
 F 0 "#PWR0135" H 12200 5350 50  0001 C CNN
 F 1 "GND" H 12205 5427 50  0000 C CNN
 F 2 "" H 12200 5600 50  0001 C CNN
@@ -1437,9 +1443,11 @@ Wire Wire Line
 Wire Wire Line
 	12250 8350 12250 8400
 $Comp
-L power:GND #PWR0137
+L 16bitCpu-rescue:GND-power #PWR0137
 U 1 1 603EEA99
 P 12250 8450
+AR Path="/603EEA99" Ref="#PWR0137"  Part="1" 
+AR Path="/5F681977/603EEA99" Ref="#PWR0137"  Part="1" 
 F 0 "#PWR0137" H 12250 8200 50  0001 C CNN
 F 1 "GND" H 12255 8277 50  0000 C CNN
 F 2 "" H 12250 8450 50  0001 C CNN
@@ -1461,7 +1469,7 @@ U 1 1 5F7A0947
 P 12700 10850
 F 0 "U45" H 12700 12020 50  0000 C CNN
 F 1 "AT28C64B-15PU" H 12700 11929 50  0000 C CNN
-F 2 "ROM:3M_240-1280-00-0602J" H 12700 10850 50  0001 L BNN
+F 2 "ROM:ZIF-AT28C64B-15PU" H 12700 10850 50  0001 L BNN
 F 3 "4.826 mm" H 12700 10850 50  0001 L BNN
 F 4 "IPC 7351B" H 12700 10850 50  0001 L BNN "Field4"
 F 5 "B" H 12700 10850 50  0001 L BNN "Field5"
@@ -1475,7 +1483,7 @@ U 1 1 5F7AF1E8
 P 12700 13100
 F 0 "U46" H 12700 14270 50  0000 C CNN
 F 1 "AT28C64B-15PU" H 12700 14179 50  0000 C CNN
-F 2 "ROM:3M_240-1280-00-0602J" H 12700 13100 50  0001 L BNN
+F 2 "ROM:ZIF-AT28C64B-15PU" H 12700 13100 50  0001 L BNN
 F 3 "4.826 mm" H 12700 13100 50  0001 L BNN
 F 4 "IPC 7351B" H 12700 13100 50  0001 L BNN "Field4"
 F 5 "B" H 12700 13100 50  0001 L BNN "Field5"
@@ -1915,9 +1923,11 @@ Connection ~ 17550 1600
 Wire Wire Line
 	17550 1600 22700 1600
 $Comp
-L power:+5V #PWR0138
+L 16bitCpu-rescue:+5V-power #PWR0138
 U 1 1 605F9C09
 P 13400 9950
+AR Path="/605F9C09" Ref="#PWR0138"  Part="1" 
+AR Path="/5F681977/605F9C09" Ref="#PWR0138"  Part="1" 
 F 0 "#PWR0138" H 13400 9800 50  0001 C CNN
 F 1 "+5V" H 13415 10123 50  0000 C CNN
 F 2 "" H 13400 9950 50  0001 C CNN
@@ -1926,9 +1936,11 @@ F 3 "" H 13400 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0140
+L 16bitCpu-rescue:+5V-power #PWR0140
 U 1 1 60630E61
 P 13400 12200
+AR Path="/60630E61" Ref="#PWR0140"  Part="1" 
+AR Path="/5F681977/60630E61" Ref="#PWR0140"  Part="1" 
 F 0 "#PWR0140" H 13400 12050 50  0001 C CNN
 F 1 "+5V" H 13415 12373 50  0000 C CNN
 F 2 "" H 13400 12200 50  0001 C CNN
@@ -1937,9 +1949,11 @@ F 3 "" H 13400 12200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0139
+L 16bitCpu-rescue:GND-power #PWR0139
 U 1 1 6066970A
 P 13400 11750
+AR Path="/6066970A" Ref="#PWR0139"  Part="1" 
+AR Path="/5F681977/6066970A" Ref="#PWR0139"  Part="1" 
 F 0 "#PWR0139" H 13400 11500 50  0001 C CNN
 F 1 "GND" H 13405 11577 50  0000 C CNN
 F 2 "" H 13400 11750 50  0001 C CNN
@@ -1948,9 +1962,11 @@ F 3 "" H 13400 11750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0141
+L 16bitCpu-rescue:GND-power #PWR0141
 U 1 1 606A094E
 P 13400 14000
+AR Path="/606A094E" Ref="#PWR0141"  Part="1" 
+AR Path="/5F681977/606A094E" Ref="#PWR0141"  Part="1" 
 F 0 "#PWR0141" H 13400 13750 50  0001 C CNN
 F 1 "GND" H 13405 13827 50  0000 C CNN
 F 2 "" H 13400 14000 50  0001 C CNN
@@ -2007,9 +2023,11 @@ Wire Wire Line
 Wire Wire Line
 	12150 3000 12150 3100
 $Comp
-L power:GND #PWR0132
+L 16bitCpu-rescue:GND-power #PWR0132
 U 1 1 60A67B07
 P 12000 10250
+AR Path="/60A67B07" Ref="#PWR0132"  Part="1" 
+AR Path="/5F681977/60A67B07" Ref="#PWR0132"  Part="1" 
 F 0 "#PWR0132" H 12000 10000 50  0001 C CNN
 F 1 "GND" H 12005 10077 50  0000 C CNN
 F 2 "" H 12000 10250 50  0001 C CNN
@@ -2018,9 +2036,11 @@ F 3 "" H 12000 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0133
+L 16bitCpu-rescue:GND-power #PWR0133
 U 1 1 60AA17EB
 P 12000 12500
+AR Path="/60AA17EB" Ref="#PWR0133"  Part="1" 
+AR Path="/5F681977/60AA17EB" Ref="#PWR0133"  Part="1" 
 F 0 "#PWR0133" H 12000 12250 50  0001 C CNN
 F 1 "GND" H 12005 12327 50  0000 C CNN
 F 2 "" H 12000 12500 50  0001 C CNN
@@ -2029,9 +2049,11 @@ F 3 "" H 12000 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC00 U35
+L 16bitCpu-rescue:74HC00-74xx U35
 U 1 1 60C0C0E9
 P 4750 10450
+AR Path="/60C0C0E9" Ref="U35"  Part="1" 
+AR Path="/5F681977/60C0C0E9" Ref="U35"  Part="1" 
 F 0 "U35" H 4750 10775 50  0000 C CNN
 F 1 "74HC00" H 4750 10684 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4750 10450 50  0001 C CNN
@@ -2040,9 +2062,11 @@ F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 4750 10450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L 16bitCpu-rescue:C-Device C6
 U 1 1 60C529CD
 P 3750 10400
+AR Path="/60C529CD" Ref="C6"  Part="1" 
+AR Path="/5F681977/60C529CD" Ref="C6"  Part="1" 
 F 0 "C6" H 3865 10446 50  0000 L CNN
 F 1 "0.01uF" H 3865 10355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 3788 10250 50  0001 C CNN
@@ -2065,9 +2089,11 @@ Connection ~ 4350 10550
 Wire Wire Line
 	4350 10550 4450 10550
 $Comp
-L power:GND #PWR0113
+L 16bitCpu-rescue:GND-power #PWR0113
 U 1 1 60E7A445
 P 4350 11150
+AR Path="/60E7A445" Ref="#PWR0113"  Part="1" 
+AR Path="/5F681977/60E7A445" Ref="#PWR0113"  Part="1" 
 F 0 "#PWR0113" H 4350 10900 50  0001 C CNN
 F 1 "GND" H 4355 10977 50  0000 C CNN
 F 2 "" H 4350 11150 50  0001 C CNN
@@ -2076,9 +2102,11 @@ F 3 "" H 4350 11150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
+L 16bitCpu-rescue:R-Device R7
 U 1 1 60EBB69C
 P 4350 11000
+AR Path="/60EBB69C" Ref="R7"  Part="1" 
+AR Path="/5F681977/60EBB69C" Ref="R7"  Part="1" 
 F 0 "R7" H 4420 11046 50  0000 L CNN
 F 1 "1K" H 4420 10955 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4280 11000 50  0001 C CNN
@@ -2097,9 +2125,11 @@ Wire Wire Line
 Wire Wire Line
 	4200 9500 15750 9500
 $Comp
-L 74xx:74HC04 U37
+L 16bitCpu-rescue:74HC04-74xx U37
 U 1 1 6116F1B1
 P 2850 10250
+AR Path="/6116F1B1" Ref="U37"  Part="1" 
+AR Path="/5F681977/6116F1B1" Ref="U37"  Part="1" 
 F 0 "U37" H 2850 10567 50  0000 C CNN
 F 1 "74HC04" H 2850 10476 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2850 10250 50  0001 C CNN
@@ -2108,9 +2138,11 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2850 102
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U37
+L 16bitCpu-rescue:74HC04-74xx U37
 U 2 1 61170EAC
 P 3450 10250
+AR Path="/61170EAC" Ref="U37"  Part="2" 
+AR Path="/5F681977/61170EAC" Ref="U37"  Part="2" 
 F 0 "U37" H 3450 10567 50  0000 C CNN
 F 1 "74HC04" H 3450 10476 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3450 10250 50  0001 C CNN
@@ -2147,11 +2179,12 @@ Wire Wire Line
 	2950 11950 2450 11950
 Connection ~ 2450 11950
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 6088F4D1
 P 2450 10950
 AR Path="/5F75E433/6088F4D1" Ref="#PWR?"  Part="1" 
 AR Path="/5F681977/6088F4D1" Ref="#PWR0103"  Part="1" 
+AR Path="/6088F4D1" Ref="#PWR0103"  Part="1" 
 F 0 "#PWR0103" H 2450 10800 50  0001 C CNN
 F 1 "+5V" H 2465 11123 50  0000 C CNN
 F 2 "" H 2450 10950 50  0001 C CNN
@@ -2160,11 +2193,12 @@ F 3 "" H 2450 10950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 6088F4D7
 P 2450 11950
 AR Path="/5F75E433/6088F4D7" Ref="#PWR?"  Part="1" 
 AR Path="/5F681977/6088F4D7" Ref="#PWR0104"  Part="1" 
+AR Path="/6088F4D7" Ref="#PWR0104"  Part="1" 
 F 0 "#PWR0104" H 2450 11700 50  0001 C CNN
 F 1 "GND" H 2455 11777 50  0000 C CNN
 F 2 "" H 2450 11950 50  0001 C CNN
@@ -2173,9 +2207,11 @@ F 3 "" H 2450 11950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC04 U37
+L 16bitCpu-rescue:74HC04-74xx U37
 U 7 1 609104EF
 P 2950 11450
+AR Path="/609104EF" Ref="U37"  Part="7" 
+AR Path="/5F681977/609104EF" Ref="U37"  Part="7" 
 F 0 "U37" H 3180 11496 50  0000 L CNN
 F 1 "74HC04" H 3180 11405 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2950 11450 50  0001 C CNN
@@ -2184,9 +2220,11 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2950 114
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74HC00 U35
+L 16bitCpu-rescue:74HC00-74xx U35
 U 5 1 609949CC
 P 2450 11450
+AR Path="/609949CC" Ref="U35"  Part="5" 
+AR Path="/5F681977/609949CC" Ref="U35"  Part="5" 
 F 0 "U35" H 2221 11496 50  0000 R CNN
 F 1 "74HC00" H 2221 11405 50  0000 R CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2450 11450 50  0001 C CNN
