@@ -206,7 +206,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 6550 8750 7200
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1DC5
 P 8050 4700
 AR Path="/5F7C1DC5" Ref="#PWR?"  Part="1" 
@@ -226,7 +226,7 @@ F 3 "" H 8050 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1DCB
 P 8900 4700
 AR Path="/5F7C1DCB" Ref="#PWR?"  Part="1" 
@@ -246,7 +246,7 @@ F 3 "" H 8900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1DD1
 P 7350 6050
 AR Path="/5F7C1DD1" Ref="#PWR?"  Part="1" 
@@ -266,7 +266,7 @@ F 3 "" H 7350 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1DD7
 P 3250 5250
 AR Path="/5F7C1DD7" Ref="#PWR?"  Part="1" 
@@ -286,7 +286,7 @@ F 3 "" H 3250 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1DDD
 P 3950 3900
 AR Path="/5F7C1DDD" Ref="#PWR?"  Part="1" 
@@ -306,7 +306,7 @@ F 3 "" H 3950 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1DE3
 P 4800 3900
 AR Path="/5F7C1DE3" Ref="#PWR?"  Part="1" 
@@ -326,7 +326,7 @@ F 3 "" H 4800 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1DE9
 P 5050 5250
 AR Path="/5F7C1DE9" Ref="#PWR?"  Part="1" 
@@ -346,7 +346,7 @@ F 3 "" H 5050 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1DEF
 P 6450 4700
 AR Path="/5F7C1DEF" Ref="#PWR?"  Part="1" 
@@ -366,7 +366,7 @@ F 3 "" H 6450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1DF5
 P 9150 6050
 AR Path="/5F7C1DF5" Ref="#PWR?"  Part="1" 
@@ -386,7 +386,7 @@ F 3 "" H 9150 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1DFB
 P 10700 4700
 AR Path="/5F7C1DFB" Ref="#PWR?"  Part="1" 
@@ -406,7 +406,7 @@ F 3 "" H 10700 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1E01
 P 6600 3900
 AR Path="/5F7C1E01" Ref="#PWR?"  Part="1" 
@@ -437,7 +437,7 @@ Wire Wire Line
 	5700 3400 5800 3400
 Connection ~ 5800 3400
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1E0D
 P 4900 3200
 AR Path="/5F7C1E0D" Ref="#PWR?"  Part="1" 
@@ -472,7 +472,7 @@ Wire Wire Line
 	9800 4200 9900 4200
 Connection ~ 9900 4200
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1E1C
 P 8450 4050
 AR Path="/5F7C1E1C" Ref="#PWR?"  Part="1" 
@@ -642,7 +642,7 @@ CLR
 Text HLabel 1950 2450 0    50   3State ~ 0
 Bus12
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F7C1E87
 P 4150 5250
 AR Path="/5F7C1E87" Ref="U?"  Part="1" 
@@ -662,7 +662,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 4150 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS245 U?
+L 16bitCpu-rescue:74LS245-74xx U?
 U 1 1 5F7C1E8D
 P 3150 3900
 AR Path="/5F7C1E8D" Ref="U?"  Part="1" 
@@ -682,7 +682,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 3150 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F7C1E93
 P 9800 4700
 AR Path="/5F7C1E93" Ref="U?"  Part="1" 
@@ -702,7 +702,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 9800 4700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1E99
 P 8050 4700
 AR Path="/5F7C1E99" Ref="#PWR?"  Part="1" 
@@ -722,7 +722,7 @@ F 3 "" H 8050 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1E9F
 P 8900 4700
 AR Path="/5F7C1E9F" Ref="#PWR?"  Part="1" 
@@ -742,7 +742,7 @@ F 3 "" H 8900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1EA5
 P 7350 6050
 AR Path="/5F7C1EA5" Ref="#PWR?"  Part="1" 
@@ -762,7 +762,7 @@ F 3 "" H 7350 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1EAB
 P 3250 5250
 AR Path="/5F7C1EAB" Ref="#PWR?"  Part="1" 
@@ -782,7 +782,7 @@ F 3 "" H 3250 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1EB1
 P 3950 3900
 AR Path="/5F7C1EB1" Ref="#PWR?"  Part="1" 
@@ -802,7 +802,7 @@ F 3 "" H 3950 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1EB7
 P 4800 3900
 AR Path="/5F7C1EB7" Ref="#PWR?"  Part="1" 
@@ -822,7 +822,7 @@ F 3 "" H 4800 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1EBD
 P 2350 3900
 AR Path="/5F7C1EBD" Ref="#PWR?"  Part="1" 
@@ -842,7 +842,7 @@ F 3 "" H 2350 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1EC3
 P 5050 5250
 AR Path="/5F7C1EC3" Ref="#PWR?"  Part="1" 
@@ -862,7 +862,7 @@ F 3 "" H 5050 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1EC9
 P 6450 4700
 AR Path="/5F7C1EC9" Ref="#PWR?"  Part="1" 
@@ -882,7 +882,7 @@ F 3 "" H 6450 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1ECF
 P 9150 6050
 AR Path="/5F7C1ECF" Ref="#PWR?"  Part="1" 
@@ -902,7 +902,7 @@ F 3 "" H 9150 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1ED5
 P 10700 4700
 AR Path="/5F7C1ED5" Ref="#PWR?"  Part="1" 
@@ -922,7 +922,7 @@ F 3 "" H 10700 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1EDB
 P 6600 3900
 AR Path="/5F7C1EDB" Ref="#PWR?"  Part="1" 
@@ -942,7 +942,7 @@ F 3 "" H 6600 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1EE1
 P 4900 3200
 AR Path="/5F7C1EE1" Ref="#PWR?"  Part="1" 
@@ -962,7 +962,7 @@ F 3 "" H 4900 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1EE7
 P 8450 4050
 AR Path="/5F7C1EE7" Ref="#PWR?"  Part="1" 
@@ -1021,7 +1021,7 @@ Connection ~ 3250 5250
 Wire Wire Line
 	10900 3450 10900 8150
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F7C1F02
 P 8250 6050
 AR Path="/5F7C1F02" Ref="U?"  Part="1" 
@@ -1041,7 +1041,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 8250 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS173 U?
+L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F7C1F08
 P 5700 3900
 AR Path="/5F7C1F08" Ref="U?"  Part="1" 
@@ -1065,7 +1065,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4300 5350 8500
 $Comp
-L 74xx:74LS245 U?
+L 16bitCpu-rescue:74LS245-74xx U?
 U 1 1 5F7C1F10
 P 7250 4700
 AR Path="/5F7C1F10" Ref="U?"  Part="1" 
@@ -1207,7 +1207,7 @@ Wire Wire Line
 Text HLabel 2050 8500 0    50   Input ~ 0
 ~II
 $Comp
-L power:+5V #PWR?
+L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1F7F
 P 2350 3900
 AR Path="/5F7C1F7F" Ref="#PWR?"  Part="1" 

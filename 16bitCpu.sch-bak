@@ -1157,7 +1157,7 @@ Wire Wire Line
 	2850 7350 3300 7350
 Connection ~ 3300 7350
 $Comp
-L power:+5V #PWR03
+L 16bitCpu-rescue:+5V-power #PWR03
 U 1 1 603C06D7
 P 9350 1200
 F 0 "#PWR03" H 9350 1050 50  0001 C CNN
@@ -1170,7 +1170,7 @@ $EndComp
 Wire Wire Line
 	9350 1200 9350 1300
 $Comp
-L power:PWR_FLAG #FLG01
+L 16bitCpu-rescue:PWR_FLAG-power #FLG01
 U 1 1 6041ADF9
 P 9350 1350
 F 0 "#FLG01" H 9350 1425 50  0001 C CNN
@@ -1181,7 +1181,7 @@ F 3 "~" H 9350 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L 16bitCpu-rescue:PWR_FLAG-power #FLG02
 U 1 1 6041B51D
 P 9350 1550
 F 0 "#FLG02" H 9350 1625 50  0001 C CNN
@@ -1192,7 +1192,7 @@ F 3 "~" H 9350 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR04
+L 16bitCpu-rescue:GND-power #PWR04
 U 1 1 6041B92E
 P 9350 1750
 F 0 "#PWR04" H 9350 1500 50  0001 C CNN
@@ -1205,7 +1205,7 @@ $EndComp
 Wire Wire Line
 	9350 1550 9350 1650
 $Comp
-L power:GND #PWR02
+L 16bitCpu-rescue:GND-power #PWR02
 U 1 1 604BCEDD
 P 9150 1750
 F 0 "#PWR02" H 9150 1500 50  0001 C CNN
@@ -1223,7 +1223,7 @@ Connection ~ 9350 1650
 Wire Wire Line
 	9350 1650 9350 1750
 $Comp
-L power:VCC #PWR01
+L 16bitCpu-rescue:VCC-power #PWR01
 U 1 1 604EB05F
 P 9100 1200
 F 0 "#PWR01" H 9100 1050 50  0001 C CNN
