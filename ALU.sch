@@ -1793,7 +1793,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 7500 2400 7650
 $Comp
-L power:GND #PWR0171
+L 16bitCpu-rescue:GND-power #PWR0171
 U 1 1 5F7E5CD0
 P 2550 5700
 F 0 "#PWR0171" H 2550 5450 50  0001 C CNN
@@ -1804,7 +1804,7 @@ F 3 "" H 2550 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0172
+L 16bitCpu-rescue:+5V-power #PWR0172
 U 1 1 5F826AFE
 P 2400 7650
 F 0 "#PWR0172" H 2400 7500 50  0001 C CNN
