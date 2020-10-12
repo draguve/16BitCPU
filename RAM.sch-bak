@@ -1146,16 +1146,9 @@ $EndComp
 Wire Wire Line
 	8800 650  15800 650 
 Wire Wire Line
-	9200 6050 10750 6050
-Wire Wire Line
-	10750 6050 10750 3400
-Wire Wire Line
-	10750 3400 11750 3400
-Wire Wire Line
-	10750 6050 10750 6250
+	10750 3400 10950 3400
 Wire Wire Line
 	10750 6250 11800 6250
-Connection ~ 10750 6050
 Wire Wire Line
 	10800 3500 11750 3500
 Connection ~ 7950 6550
@@ -2232,4 +2225,29 @@ F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2450 11450 50  0001 C CNN
 	5    2450 11450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10750 3400 10750 6250
+NoConn ~ 9200 6050
+Wire Wire Line
+	10950 3400 10950 2700
+Wire Wire Line
+	10950 2700 11350 2700
+Wire Wire Line
+	11350 2700 11350 3000
+Connection ~ 10950 3400
+Wire Wire Line
+	10950 3400 11750 3400
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FAE8C08
+P 11350 3000
+F 0 "#PWR?" H 11350 2750 50  0001 C CNN
+F 1 "GND-power" H 11355 2827 50  0000 C CNN
+F 2 "" H 11350 3000 50  0001 C CNN
+F 3 "" H 11350 3000 50  0001 C CNN
+	1    11350 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10250 8150
+NoConn ~ 10250 8650
 $EndSCHEMATC
