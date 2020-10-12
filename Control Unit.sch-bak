@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 9 10
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -435,10 +435,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 7500 8400 7500
 Wire Wire Line
-	7100 7900 8400 7900
-Wire Wire Line
-	7100 8000 8400 8000
-Wire Wire Line
 	7100 8100 8400 8100
 Wire Wire Line
 	7100 8200 8400 8200
@@ -476,8 +472,6 @@ Text HLabel 8450 5950 2    50   Output ~ 0
 PC_CE
 Text HLabel 8400 7500 2    50   Output ~ 0
 ~PC_CO
-NoConn ~ 8400 7900
-NoConn ~ 8400 8000
 NoConn ~ 8400 8100
 NoConn ~ 8400 8200
 Wire Wire Line
@@ -665,4 +659,12 @@ Wire Wire Line
 	7100 7800 9200 7800
 Text HLabel 9200 7800 2    50   Output ~ 0
 ~SO
+Text HLabel 10600 7900 2    50   Output ~ 0
+~XI
+Text HLabel 10500 8000 2    50   Output ~ 0
+~XO
+Wire Wire Line
+	7100 7900 10600 7900
+Wire Wire Line
+	7100 8000 10500 8000
 $EndSCHEMATC

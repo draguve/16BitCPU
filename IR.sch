@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 10
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -1245,10 +1245,10 @@ Connection ~ 10200 5700
 Wire Wire Line
 	10200 5700 10200 5850
 $Comp
-L 16bitCpu-rescue:GND-power #PWR?
+L 16bitCpu-rescue:GND-power #PWR0182
 U 1 1 60F44F5B
 P 10200 5850
-F 0 "#PWR?" H 10200 5600 50  0001 C CNN
+F 0 "#PWR0182" H 10200 5600 50  0001 C CNN
 F 1 "GND-power" H 10205 5677 50  0000 C CNN
 F 2 "" H 10200 5850 50  0001 C CNN
 F 3 "" H 10200 5850 50  0001 C CNN

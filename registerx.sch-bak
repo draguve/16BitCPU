@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 11
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -33,8 +33,6 @@ Wire Wire Line
 	4100 6100 4100 5350
 Wire Wire Line
 	4000 5350 4000 6000
-Wire Wire Line
-	4000 6000 3350 6000
 Wire Wire Line
 	2100 6000 2100 4000
 Wire Wire Line
@@ -75,12 +73,6 @@ Wire Wire Line
 	4000 950  9850 950 
 Wire Wire Line
 	4100 850  9850 850 
-Wire Wire Line
-	2000 6100 3250 6100
-Wire Wire Line
-	2200 5850 3450 5850
-Wire Wire Line
-	2700 4100 5250 4100
 Connection ~ 5350 1550
 Connection ~ 5450 1450
 Connection ~ 5550 1350
@@ -152,13 +144,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 4800 6600 5000
 Wire Wire Line
-	6600 5000 9250 5000
-Wire Wire Line
 	9650 5000 9650 4800
 Wire Wire Line
 	9550 4800 9550 4950
-Wire Wire Line
-	9550 4950 9350 4950
 Wire Wire Line
 	6700 4950 6700 4800
 Wire Wire Line
@@ -222,23 +210,21 @@ Connection ~ 9750 2050
 Wire Wire Line
 	9750 2050 9850 2050
 Wire Wire Line
-	6100 6900 7500 6900
-Wire Wire Line
 	8100 6150 8100 6800
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D2B
+U 1 1 5F7355A1
 P 7400 4300
-AR Path="/61968D2B" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D2B" Ref="#PWR040"  Part="1" 
-AR Path="/5F70885A/61968D2B" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D2B" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D2B" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D2B" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D2B" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D2B" Ref="#PWR068"  Part="1" 
-AR Path="/5FB94562/61968D2B" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D2B" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355A1" Ref="#PWR040"  Part="1" 
+AR Path="/5F70885A/5F7355A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355A1" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355A1" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355A1" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355A1" Ref="#PWR068"  Part="1" 
+AR Path="/5FB94562/5F7355A1" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A1" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7400 4050 50  0001 C CNN
 F 1 "GND" H 7405 4127 50  0000 C CNN
 F 2 "" H 7400 4300 50  0001 C CNN
@@ -248,18 +234,18 @@ F 3 "" H 7400 4300 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D2C
+U 1 1 5F7355A2
 P 8250 4300
-AR Path="/61968D2C" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D2C" Ref="#PWR044"  Part="1" 
-AR Path="/5F70885A/61968D2C" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D2C" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D2C" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D2C" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D2C" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D2C" Ref="#PWR072"  Part="1" 
-AR Path="/5FB94562/61968D2C" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D2C" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355A2" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355A2" Ref="#PWR044"  Part="1" 
+AR Path="/5F70885A/5F7355A2" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355A2" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355A2" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355A2" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355A2" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355A2" Ref="#PWR072"  Part="1" 
+AR Path="/5FB94562/5F7355A2" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A2" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8250 4050 50  0001 C CNN
 F 1 "GND" H 8255 4127 50  0000 C CNN
 F 2 "" H 8250 4300 50  0001 C CNN
@@ -280,7 +266,7 @@ AR Path="/603B00C8/5F7355A3" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F7355A3" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F7355A3" Ref="#PWR066"  Part="1" 
 AR Path="/5FB94562/5F7355A3" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F7355A3" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A3" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6700 5400 50  0001 C CNN
 F 1 "GND" H 6705 5477 50  0000 C CNN
 F 2 "" H 6700 5650 50  0001 C CNN
@@ -290,18 +276,18 @@ F 3 "" H 6700 5650 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D37
+U 1 1 5F6AAC3B
 P 2600 4850
-AR Path="/61968D37" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D37" Ref="#PWR023"  Part="1" 
-AR Path="/5F70885A/61968D37" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D37" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D37" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D37" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D37" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D37" Ref="#PWR051"  Part="1" 
-AR Path="/5FB94562/61968D37" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D37" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC3B" Ref="#PWR023"  Part="1" 
+AR Path="/5F70885A/5F6AAC3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC3B" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC3B" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC3B" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC3B" Ref="#PWR051"  Part="1" 
+AR Path="/5FB94562/5F6AAC3B" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC3B" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2600 4600 50  0001 C CNN
 F 1 "GND" H 2605 4677 50  0000 C CNN
 F 2 "" H 2600 4850 50  0001 C CNN
@@ -311,18 +297,18 @@ F 3 "" H 2600 4850 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D38
+U 1 1 5F6AAC41
 P 3300 3500
-AR Path="/61968D38" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D38" Ref="#PWR025"  Part="1" 
-AR Path="/5F70885A/61968D38" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D38" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D38" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D38" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D38" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D38" Ref="#PWR053"  Part="1" 
-AR Path="/5FB94562/61968D38" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D38" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC41" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC41" Ref="#PWR025"  Part="1" 
+AR Path="/5F70885A/5F6AAC41" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC41" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC41" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC41" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC41" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC41" Ref="#PWR053"  Part="1" 
+AR Path="/5FB94562/5F6AAC41" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC41" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3300 3250 50  0001 C CNN
 F 1 "GND" H 3305 3327 50  0000 C CNN
 F 2 "" H 3300 3500 50  0001 C CNN
@@ -332,18 +318,18 @@ F 3 "" H 3300 3500 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D39
+U 1 1 5F6AAC47
 P 4150 3500
-AR Path="/61968D39" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D39" Ref="#PWR027"  Part="1" 
-AR Path="/5F70885A/61968D39" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D39" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D39" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D39" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D39" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D39" Ref="#PWR055"  Part="1" 
-AR Path="/5FB94562/61968D39" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D39" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC47" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC47" Ref="#PWR027"  Part="1" 
+AR Path="/5F70885A/5F6AAC47" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC47" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC47" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC47" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC47" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC47" Ref="#PWR055"  Part="1" 
+AR Path="/5FB94562/5F6AAC47" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC47" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4150 3250 50  0001 C CNN
 F 1 "GND" H 4155 3327 50  0000 C CNN
 F 2 "" H 4150 3500 50  0001 C CNN
@@ -364,7 +350,7 @@ AR Path="/603B00C8/5F7355A8" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F7355A8" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F7355A8" Ref="#PWR060"  Part="1" 
 AR Path="/5FB94562/5F7355A8" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F7355A8" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A8" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4400 4700 50  0001 C CNN
 F 1 "+5V" H 4415 5023 50  0000 C CNN
 F 2 "" H 4400 4850 50  0001 C CNN
@@ -374,18 +360,18 @@ F 3 "" H 4400 4850 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 61968D3C
+U 1 1 5F7355A9
 P 5800 4300
-AR Path="/61968D3C" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D3C" Ref="#PWR034"  Part="1" 
-AR Path="/5F70885A/61968D3C" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D3C" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D3C" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D3C" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D3C" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D3C" Ref="#PWR062"  Part="1" 
-AR Path="/5FB94562/61968D3C" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D3C" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355A9" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355A9" Ref="#PWR034"  Part="1" 
+AR Path="/5F70885A/5F7355A9" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355A9" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355A9" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355A9" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355A9" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355A9" Ref="#PWR062"  Part="1" 
+AR Path="/5FB94562/5F7355A9" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A9" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5800 4150 50  0001 C CNN
 F 1 "+5V" H 5815 4473 50  0000 C CNN
 F 2 "" H 5800 4300 50  0001 C CNN
@@ -395,18 +381,18 @@ F 3 "" H 5800 4300 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 61968D3D
+U 1 1 5F7355AA
 P 8500 5650
-AR Path="/61968D3D" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D3D" Ref="#PWR046"  Part="1" 
-AR Path="/5F70885A/61968D3D" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D3D" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D3D" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D3D" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D3D" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D3D" Ref="#PWR074"  Part="1" 
-AR Path="/5FB94562/61968D3D" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D3D" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355AA" Ref="#PWR046"  Part="1" 
+AR Path="/5F70885A/5F7355AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355AA" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355AA" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355AA" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355AA" Ref="#PWR074"  Part="1" 
+AR Path="/5FB94562/5F7355AA" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355AA" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8500 5500 50  0001 C CNN
 F 1 "+5V" H 8515 5823 50  0000 C CNN
 F 2 "" H 8500 5650 50  0001 C CNN
@@ -416,18 +402,18 @@ F 3 "" H 8500 5650 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 61968D3E
+U 1 1 5F7355AB
 P 10050 4300
-AR Path="/61968D3E" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D3E" Ref="#PWR048"  Part="1" 
-AR Path="/5F70885A/61968D3E" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D3E" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D3E" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D3E" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D3E" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D3E" Ref="#PWR076"  Part="1" 
-AR Path="/5FB94562/61968D3E" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D3E" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355AB" Ref="#PWR048"  Part="1" 
+AR Path="/5F70885A/5F7355AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355AB" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355AB" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355AB" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355AB" Ref="#PWR076"  Part="1" 
+AR Path="/5FB94562/5F7355AB" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355AB" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10050 4150 50  0001 C CNN
 F 1 "+5V" H 10065 4473 50  0000 C CNN
 F 2 "" H 10050 4300 50  0001 C CNN
@@ -448,7 +434,7 @@ AR Path="/603B00C8/5F7355AC" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F7355AC" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F7355AC" Ref="#PWR064"  Part="1" 
 AR Path="/5FB94562/5F7355AC" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F7355AC" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355AC" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5950 3350 50  0001 C CNN
 F 1 "+5V" H 5965 3673 50  0000 C CNN
 F 2 "" H 5950 3500 50  0001 C CNN
@@ -469,18 +455,18 @@ Wire Wire Line
 Connection ~ 5150 3000
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D3F
+U 1 1 5F7355AD
 P 4250 2800
-AR Path="/61968D3F" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D3F" Ref="#PWR030"  Part="1" 
-AR Path="/5F70885A/61968D3F" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D3F" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D3F" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D3F" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D3F" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D3F" Ref="#PWR058"  Part="1" 
-AR Path="/5FB94562/61968D3F" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355AD" Ref="#PWR030"  Part="1" 
+AR Path="/5F70885A/5F7355AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355AD" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355AD" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355AD" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355AD" Ref="#PWR058"  Part="1" 
+AR Path="/5FB94562/5F7355AD" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355AD" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4250 2550 50  0001 C CNN
 F 1 "GND" H 4255 2627 50  0000 C CNN
 F 2 "" H 4250 2800 50  0001 C CNN
@@ -516,7 +502,7 @@ AR Path="/603B00C8/5F6AAC87" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F6AAC87" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F6AAC87" Ref="#PWR069"  Part="1" 
 AR Path="/5FB94562/5F6AAC87" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F6AAC87" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC87" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7800 3400 50  0001 C CNN
 F 1 "GND" H 7805 3477 50  0000 C CNN
 F 2 "" H 7800 3650 50  0001 C CNN
@@ -681,7 +667,7 @@ AR Path="/603B00C8/5F6AAB55" Ref="U?"  Part="1"
 AR Path="/603B766D/5F6AAB55" Ref="U?"  Part="1" 
 AR Path="/5F74778C/5F6AAB55" Ref="U18"  Part="1" 
 AR Path="/5FB94562/5F6AAB55" Ref="U?"  Part="1" 
-AR Path="/616D5CDC/5F6AAB55" Ref="U?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAB55" Ref="U?"  Part="1" 
 F 0 "U?" H 3500 5931 50  0000 C CNN
 F 1 "74LS173" H 3500 5840 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 3500 4850 50  0001 C CNN
@@ -702,7 +688,7 @@ AR Path="/603B00C8/5F6AAB61" Ref="U?"  Part="1"
 AR Path="/603B766D/5F6AAB61" Ref="U?"  Part="1" 
 AR Path="/5F74778C/5F6AAB61" Ref="U17"  Part="1" 
 AR Path="/5FB94562/5F6AAB61" Ref="U?"  Part="1" 
-AR Path="/616D5CDC/5F6AAB61" Ref="U?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAB61" Ref="U?"  Part="1" 
 F 0 "U?" V 2546 2656 50  0000 R CNN
 F 1 "74LS245" V 2455 2656 50  0000 R CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 2500 3500 50  0001 C CNN
@@ -712,18 +698,18 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 2500 3500 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:74LS173-74xx U?
-U 1 1 616C379E
+U 1 1 5F73559F
 P 9150 4300
-AR Path="/616C379E" Ref="U?"  Part="1" 
-AR Path="/5F67C726/616C379E" Ref="U16"  Part="1" 
-AR Path="/5F70885A/616C379E" Ref="U?"  Part="1" 
-AR Path="/5F733C5E/616C379E" Ref="U?"  Part="1" 
-AR Path="/602D4838/616C379E" Ref="U?"  Part="1" 
-AR Path="/603B00C8/616C379E" Ref="U?"  Part="1" 
-AR Path="/603B766D/616C379E" Ref="U?"  Part="1" 
-AR Path="/5F74778C/616C379E" Ref="U22"  Part="1" 
-AR Path="/5FB94562/616C379E" Ref="U?"  Part="1" 
-AR Path="/616D5CDC/616C379E" Ref="U?"  Part="1" 
+AR Path="/5F73559F" Ref="U?"  Part="1" 
+AR Path="/5F67C726/5F73559F" Ref="U16"  Part="1" 
+AR Path="/5F70885A/5F73559F" Ref="U?"  Part="1" 
+AR Path="/5F733C5E/5F73559F" Ref="U?"  Part="1" 
+AR Path="/602D4838/5F73559F" Ref="U?"  Part="1" 
+AR Path="/603B00C8/5F73559F" Ref="U?"  Part="1" 
+AR Path="/603B766D/5F73559F" Ref="U?"  Part="1" 
+AR Path="/5F74778C/5F73559F" Ref="U22"  Part="1" 
+AR Path="/5FB94562/5F73559F" Ref="U?"  Part="1" 
+AR Path="/61DF6CC7/5F73559F" Ref="U?"  Part="1" 
 F 0 "U?" V 9104 5244 50  0000 L CNN
 F 1 "74LS173" V 9195 5244 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 9150 4300 50  0001 C CNN
@@ -733,18 +719,18 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 9150 4300 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D34
+U 1 1 5F6AAC29
 P 7400 4300
-AR Path="/61968D34" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D34" Ref="#PWR039"  Part="1" 
-AR Path="/5F70885A/61968D34" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D34" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D34" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D34" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D34" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D34" Ref="#PWR067"  Part="1" 
-AR Path="/5FB94562/61968D34" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D34" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC29" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC29" Ref="#PWR039"  Part="1" 
+AR Path="/5F70885A/5F6AAC29" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC29" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC29" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC29" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC29" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC29" Ref="#PWR067"  Part="1" 
+AR Path="/5FB94562/5F6AAC29" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC29" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7400 4050 50  0001 C CNN
 F 1 "GND" H 7405 4127 50  0000 C CNN
 F 2 "" H 7400 4300 50  0001 C CNN
@@ -754,18 +740,18 @@ F 3 "" H 7400 4300 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 616C3790
+U 1 1 5F6AAC2F
 P 8250 4300
-AR Path="/616C3790" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/616C3790" Ref="#PWR043"  Part="1" 
-AR Path="/5F70885A/616C3790" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/616C3790" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/616C3790" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/616C3790" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/616C3790" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/616C3790" Ref="#PWR071"  Part="1" 
-AR Path="/5FB94562/616C3790" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/616C3790" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC2F" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC2F" Ref="#PWR043"  Part="1" 
+AR Path="/5F70885A/5F6AAC2F" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC2F" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC2F" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC2F" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC2F" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC2F" Ref="#PWR071"  Part="1" 
+AR Path="/5FB94562/5F6AAC2F" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC2F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8250 4050 50  0001 C CNN
 F 1 "GND" H 8255 4127 50  0000 C CNN
 F 2 "" H 8250 4300 50  0001 C CNN
@@ -775,18 +761,18 @@ F 3 "" H 8250 4300 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 616C3791
+U 1 1 5F6AAC35
 P 6700 5650
-AR Path="/616C3791" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/616C3791" Ref="#PWR037"  Part="1" 
-AR Path="/5F70885A/616C3791" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/616C3791" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/616C3791" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/616C3791" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/616C3791" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/616C3791" Ref="#PWR065"  Part="1" 
-AR Path="/5FB94562/616C3791" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/616C3791" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC35" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC35" Ref="#PWR037"  Part="1" 
+AR Path="/5F70885A/5F6AAC35" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC35" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC35" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC35" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC35" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC35" Ref="#PWR065"  Part="1" 
+AR Path="/5FB94562/5F6AAC35" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC35" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 6700 5400 50  0001 C CNN
 F 1 "GND" H 6705 5477 50  0000 C CNN
 F 2 "" H 6700 5650 50  0001 C CNN
@@ -796,18 +782,18 @@ F 3 "" H 6700 5650 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D2E
+U 1 1 5F7355A4
 P 2600 4850
-AR Path="/61968D2E" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D2E" Ref="#PWR024"  Part="1" 
-AR Path="/5F70885A/61968D2E" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D2E" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D2E" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D2E" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D2E" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D2E" Ref="#PWR052"  Part="1" 
-AR Path="/5FB94562/61968D2E" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D2E" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355A4" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355A4" Ref="#PWR024"  Part="1" 
+AR Path="/5F70885A/5F7355A4" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355A4" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355A4" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355A4" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355A4" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355A4" Ref="#PWR052"  Part="1" 
+AR Path="/5FB94562/5F7355A4" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A4" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2600 4600 50  0001 C CNN
 F 1 "GND" H 2605 4677 50  0000 C CNN
 F 2 "" H 2600 4850 50  0001 C CNN
@@ -817,18 +803,18 @@ F 3 "" H 2600 4850 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D3B
+U 1 1 5F7355A5
 P 3300 3500
-AR Path="/61968D3B" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D3B" Ref="#PWR026"  Part="1" 
-AR Path="/5F70885A/61968D3B" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D3B" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D3B" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D3B" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D3B" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D3B" Ref="#PWR054"  Part="1" 
-AR Path="/5FB94562/61968D3B" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355A5" Ref="#PWR026"  Part="1" 
+AR Path="/5F70885A/5F7355A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355A5" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355A5" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355A5" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355A5" Ref="#PWR054"  Part="1" 
+AR Path="/5FB94562/5F7355A5" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3300 3250 50  0001 C CNN
 F 1 "GND" H 3305 3327 50  0000 C CNN
 F 2 "" H 3300 3500 50  0001 C CNN
@@ -849,7 +835,7 @@ AR Path="/603B00C8/5F7355A6" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F7355A6" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F7355A6" Ref="#PWR056"  Part="1" 
 AR Path="/5FB94562/5F7355A6" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F7355A6" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A6" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4150 3250 50  0001 C CNN
 F 1 "GND" H 4155 3327 50  0000 C CNN
 F 2 "" H 4150 3500 50  0001 C CNN
@@ -870,7 +856,7 @@ AR Path="/603B00C8/5F6AAC4D" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F6AAC4D" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F6AAC4D" Ref="#PWR049"  Part="1" 
 AR Path="/5FB94562/5F6AAC4D" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F6AAC4D" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC4D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1700 3350 50  0001 C CNN
 F 1 "+5V" H 1715 3673 50  0000 C CNN
 F 2 "" H 1700 3500 50  0001 C CNN
@@ -891,7 +877,7 @@ AR Path="/603B00C8/5F6AAC53" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F6AAC53" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F6AAC53" Ref="#PWR059"  Part="1" 
 AR Path="/5FB94562/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F6AAC53" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC53" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4400 4700 50  0001 C CNN
 F 1 "+5V" H 4415 5023 50  0000 C CNN
 F 2 "" H 4400 4850 50  0001 C CNN
@@ -912,7 +898,7 @@ AR Path="/603B00C8/5F6AAC59" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F6AAC59" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F6AAC59" Ref="#PWR061"  Part="1" 
 AR Path="/5FB94562/5F6AAC59" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F6AAC59" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC59" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5800 4150 50  0001 C CNN
 F 1 "+5V" H 5815 4473 50  0000 C CNN
 F 2 "" H 5800 4300 50  0001 C CNN
@@ -922,18 +908,18 @@ F 3 "" H 5800 4300 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 61968D24
+U 1 1 5F6AAC5F
 P 8500 5650
-AR Path="/61968D24" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D24" Ref="#PWR045"  Part="1" 
-AR Path="/5F70885A/61968D24" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D24" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D24" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D24" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D24" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D24" Ref="#PWR073"  Part="1" 
-AR Path="/5FB94562/61968D24" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D24" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC5F" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC5F" Ref="#PWR045"  Part="1" 
+AR Path="/5F70885A/5F6AAC5F" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC5F" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC5F" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC5F" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC5F" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC5F" Ref="#PWR073"  Part="1" 
+AR Path="/5FB94562/5F6AAC5F" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC5F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8500 5500 50  0001 C CNN
 F 1 "+5V" H 8515 5823 50  0000 C CNN
 F 2 "" H 8500 5650 50  0001 C CNN
@@ -954,7 +940,7 @@ AR Path="/603B00C8/5F6AAC65" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F6AAC65" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F6AAC65" Ref="#PWR075"  Part="1" 
 AR Path="/5FB94562/5F6AAC65" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F6AAC65" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC65" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10050 4150 50  0001 C CNN
 F 1 "+5V" H 10065 4473 50  0000 C CNN
 F 2 "" H 10050 4300 50  0001 C CNN
@@ -975,7 +961,7 @@ AR Path="/603B00C8/5F6AAC6B" Ref="#PWR?"  Part="1"
 AR Path="/603B766D/5F6AAC6B" Ref="#PWR?"  Part="1" 
 AR Path="/5F74778C/5F6AAC6B" Ref="#PWR063"  Part="1" 
 AR Path="/5FB94562/5F6AAC6B" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/5F6AAC6B" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC6B" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 5950 3350 50  0001 C CNN
 F 1 "+5V" H 5965 3673 50  0000 C CNN
 F 2 "" H 5950 3500 50  0001 C CNN
@@ -985,18 +971,18 @@ F 3 "" H 5950 3500 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 61968D27
+U 1 1 5F6AAC78
 P 4250 2800
-AR Path="/61968D27" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D27" Ref="#PWR029"  Part="1" 
-AR Path="/5F70885A/61968D27" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D27" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D27" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D27" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D27" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D27" Ref="#PWR057"  Part="1" 
-AR Path="/5FB94562/61968D27" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D27" Ref="#PWR?"  Part="1" 
+AR Path="/5F6AAC78" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F6AAC78" Ref="#PWR029"  Part="1" 
+AR Path="/5F70885A/5F6AAC78" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F6AAC78" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F6AAC78" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F6AAC78" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F6AAC78" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F6AAC78" Ref="#PWR057"  Part="1" 
+AR Path="/5FB94562/5F6AAC78" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F6AAC78" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4250 2550 50  0001 C CNN
 F 1 "GND" H 4255 2627 50  0000 C CNN
 F 2 "" H 4250 2800 50  0001 C CNN
@@ -1006,18 +992,18 @@ F 3 "" H 4250 2800 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 616C37AD
+U 1 1 5F7355AE
 P 7800 3650
-AR Path="/616C37AD" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/616C37AD" Ref="#PWR042"  Part="1" 
-AR Path="/5F70885A/616C37AD" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/616C37AD" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/616C37AD" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/616C37AD" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/616C37AD" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/616C37AD" Ref="#PWR070"  Part="1" 
-AR Path="/5FB94562/616C37AD" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/616C37AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355AE" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355AE" Ref="#PWR042"  Part="1" 
+AR Path="/5F70885A/5F7355AE" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355AE" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355AE" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355AE" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355AE" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355AE" Ref="#PWR070"  Part="1" 
+AR Path="/5FB94562/5F7355AE" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355AE" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7800 3400 50  0001 C CNN
 F 1 "GND" H 7805 3477 50  0000 C CNN
 F 2 "" H 7800 3650 50  0001 C CNN
@@ -1062,18 +1048,18 @@ Wire Wire Line
 	10250 3050 10250 7750
 $Comp
 L 16bitCpu-rescue:74LS173-74xx U?
-U 1 1 61968D33
+U 1 1 5F6AABCF
 P 7600 5650
-AR Path="/61968D33" Ref="U?"  Part="1" 
-AR Path="/5F67C726/61968D33" Ref="U15"  Part="1" 
-AR Path="/5F70885A/61968D33" Ref="U?"  Part="1" 
-AR Path="/5F733C5E/61968D33" Ref="U?"  Part="1" 
-AR Path="/602D4838/61968D33" Ref="U?"  Part="1" 
-AR Path="/603B00C8/61968D33" Ref="U?"  Part="1" 
-AR Path="/603B766D/61968D33" Ref="U?"  Part="1" 
-AR Path="/5F74778C/61968D33" Ref="U21"  Part="1" 
-AR Path="/5FB94562/61968D33" Ref="U?"  Part="1" 
-AR Path="/616D5CDC/61968D33" Ref="U?"  Part="1" 
+AR Path="/5F6AABCF" Ref="U?"  Part="1" 
+AR Path="/5F67C726/5F6AABCF" Ref="U15"  Part="1" 
+AR Path="/5F70885A/5F6AABCF" Ref="U?"  Part="1" 
+AR Path="/5F733C5E/5F6AABCF" Ref="U?"  Part="1" 
+AR Path="/602D4838/5F6AABCF" Ref="U?"  Part="1" 
+AR Path="/603B00C8/5F6AABCF" Ref="U?"  Part="1" 
+AR Path="/603B766D/5F6AABCF" Ref="U?"  Part="1" 
+AR Path="/5F74778C/5F6AABCF" Ref="U21"  Part="1" 
+AR Path="/5FB94562/5F6AABCF" Ref="U?"  Part="1" 
+AR Path="/61DF6CC7/5F6AABCF" Ref="U?"  Part="1" 
 F 0 "U?" V 7554 6594 50  0000 L CNN
 F 1 "74LS173" V 7645 6594 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 7600 5650 50  0001 C CNN
@@ -1094,7 +1080,7 @@ AR Path="/603B00C8/5F73559C" Ref="U?"  Part="1"
 AR Path="/603B766D/5F73559C" Ref="U?"  Part="1" 
 AR Path="/5F74778C/5F73559C" Ref="U19"  Part="1" 
 AR Path="/5FB94562/5F73559C" Ref="U?"  Part="1" 
-AR Path="/616D5CDC/5F73559C" Ref="U?"  Part="1" 
+AR Path="/61DF6CC7/5F73559C" Ref="U?"  Part="1" 
 F 0 "U?" V 5004 4444 50  0000 L CNN
 F 1 "74LS173" V 5095 4444 50  0000 L CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 5050 3500 50  0001 C CNN
@@ -1119,7 +1105,7 @@ AR Path="/603B00C8/5F7355A0" Ref="U?"  Part="1"
 AR Path="/603B766D/5F7355A0" Ref="U?"  Part="1" 
 AR Path="/5F74778C/5F7355A0" Ref="U20"  Part="1" 
 AR Path="/5FB94562/5F7355A0" Ref="U?"  Part="1" 
-AR Path="/616D5CDC/5F7355A0" Ref="U?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A0" Ref="U?"  Part="1" 
 F 0 "U?" V 6646 3456 50  0000 R CNN
 F 1 "74LS245" V 6555 3456 50  0000 R CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 6600 4300 50  0001 C CNN
@@ -1185,146 +1171,20 @@ Wire Wire Line
 Connection ~ 2700 1550
 Wire Wire Line
 	2700 1550 5350 1550
-Text HLabel 3250 7500 3    50   Output ~ 0
-A0
-Text HLabel 3350 7500 3    50   Output ~ 0
-A1
-Text HLabel 3450 7500 3    50   Output ~ 0
-A2
-Text HLabel 3550 7500 3    50   Output ~ 0
-A3
-Text HLabel 4950 7500 3    50   Output ~ 0
-A4
-Text HLabel 5050 7500 3    50   Output ~ 0
-A5
-Text HLabel 5150 7500 3    50   Output ~ 0
-A6
-Text HLabel 5250 7500 3    50   Output ~ 0
-A7
-Text HLabel 7500 7500 3    50   Output ~ 0
-A8
-Text HLabel 7600 7500 3    50   Output ~ 0
-A9
-Text HLabel 7700 7500 3    50   Output ~ 0
-A10
-Text HLabel 7800 7500 3    50   Output ~ 0
-A11
-Text HLabel 9150 7500 3    50   Output ~ 0
-A12
-Text HLabel 9250 7500 3    50   Output ~ 0
-A13
-Text HLabel 9350 7500 3    50   Output ~ 0
-A14
-Text HLabel 9450 7500 3    50   Output ~ 0
-A15
-Wire Wire Line
-	3250 7500 3250 6100
-Connection ~ 3250 6100
-Wire Wire Line
-	3250 6100 4100 6100
-Wire Wire Line
-	3350 7500 3350 6000
-Connection ~ 3350 6000
-Wire Wire Line
-	3350 6000 2100 6000
-Wire Wire Line
-	3450 7500 3450 5850
-Connection ~ 3450 5850
-Wire Wire Line
-	3450 5850 3900 5850
-Wire Wire Line
-	3550 7500 3550 5700
-Wire Wire Line
-	2300 5700 3550 5700
-Connection ~ 3550 5700
-Wire Wire Line
-	3550 5700 3800 5700
-Wire Wire Line
-	5250 7500 5250 4100
-Connection ~ 5250 4100
-Wire Wire Line
-	5250 4100 5350 4100
-Wire Wire Line
-	2600 4150 5150 4150
-Connection ~ 5150 4150
-Wire Wire Line
-	5150 4150 5450 4150
-Wire Wire Line
-	5150 7500 5150 4150
-Wire Wire Line
-	2500 4200 5050 4200
-Connection ~ 5050 4200
-Wire Wire Line
-	5050 4200 5550 4200
-Wire Wire Line
-	4950 7500 4950 4250
-Wire Wire Line
-	2400 4250 4950 4250
-Connection ~ 4950 4250
-Wire Wire Line
-	5050 4200 5050 7500
-Wire Wire Line
-	4950 4250 5650 4250
-Wire Wire Line
-	6200 6800 7600 6800
-Wire Wire Line
-	7500 7500 7500 6900
-Connection ~ 7500 6900
-Wire Wire Line
-	7500 6900 8200 6900
-Wire Wire Line
-	7600 7500 7600 6800
-Connection ~ 7600 6800
-Wire Wire Line
-	7600 6800 8100 6800
-Wire Wire Line
-	7700 7500 7700 6650
-Wire Wire Line
-	6300 6650 7700 6650
-Connection ~ 7700 6650
-Wire Wire Line
-	7700 6650 8000 6650
-Wire Wire Line
-	7800 7500 7800 6500
-Wire Wire Line
-	6400 6500 7800 6500
-Connection ~ 7800 6500
-Wire Wire Line
-	7800 6500 7900 6500
-Wire Wire Line
-	6500 5050 9150 5050
-Wire Wire Line
-	9150 7500 9150 5050
-Connection ~ 9150 5050
-Wire Wire Line
-	9150 5050 9750 5050
-Wire Wire Line
-	9250 7500 9250 5000
-Connection ~ 9250 5000
-Wire Wire Line
-	9250 5000 9650 5000
-Wire Wire Line
-	9350 7500 9350 4950
-Connection ~ 9350 4950
-Wire Wire Line
-	9350 4950 6700 4950
-Wire Wire Line
-	9450 7500 9450 4900
-Connection ~ 9450 4900
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 61968D30
+U 1 1 5F7355A7
 P 1700 3500
-AR Path="/61968D30" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/61968D30" Ref="#PWR022"  Part="1" 
-AR Path="/5F70885A/61968D30" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/61968D30" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/61968D30" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/61968D30" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/61968D30" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/61968D30" Ref="#PWR050"  Part="1" 
-AR Path="/5FB94562/61968D30" Ref="#PWR?"  Part="1" 
-AR Path="/616D5CDC/61968D30" Ref="#PWR?"  Part="1" 
+AR Path="/5F7355A7" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/5F7355A7" Ref="#PWR022"  Part="1" 
+AR Path="/5F70885A/5F7355A7" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/5F7355A7" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/5F7355A7" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/5F7355A7" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/5F7355A7" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/5F7355A7" Ref="#PWR050"  Part="1" 
+AR Path="/5FB94562/5F7355A7" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5F7355A7" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1700 3350 50  0001 C CNN
 F 1 "+5V" H 1715 3673 50  0000 C CNN
 F 2 "" H 1700 3500 50  0001 C CNN
@@ -1337,9 +1197,39 @@ CLR
 Text HLabel 1300 1150 0    50   3State ~ 0
 Bus3
 Text HLabel 1400 8100 0    50   Input ~ 0
-~AI
+~XI
 Text HLabel 1350 8600 0    50   Input ~ 0
-~AO
+~XO
 Text HLabel 1300 2350 0    50   3State ~ 0
 Bus15
+Wire Wire Line
+	6500 5050 9750 5050
+Wire Wire Line
+	6600 5000 9650 5000
+Wire Wire Line
+	6700 4950 9550 4950
+Wire Wire Line
+	6100 6900 8200 6900
+Wire Wire Line
+	6200 6800 8100 6800
+Wire Wire Line
+	6300 6650 8000 6650
+Wire Wire Line
+	6400 6500 7900 6500
+Wire Wire Line
+	2700 4100 5350 4100
+Wire Wire Line
+	2600 4150 5450 4150
+Wire Wire Line
+	2400 4250 5650 4250
+Wire Wire Line
+	2500 4200 5550 4200
+Wire Wire Line
+	2000 6100 4100 6100
+Wire Wire Line
+	2100 6000 4000 6000
+Wire Wire Line
+	2200 5850 3900 5850
+Wire Wire Line
+	2300 5700 3800 5700
 $EndSCHEMATC
