@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -144,11 +144,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 4850 6850 4950
 Wire Wire Line
-	9500 4950 9500 4850
-Wire Wire Line
 	7950 5200 7950 2000
-Wire Wire Line
-	6850 4950 9500 4950
 Connection ~ 6150 1700
 Wire Wire Line
 	6150 1700 8250 1700
@@ -1264,22 +1260,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 7450 3600 5750
 Wire Wire Line
-	9200 6050 9200 5100
-Connection ~ 9500 4950
-Wire Wire Line
-	9400 5000 6750 5000
-Wire Wire Line
 	9600 5000 9400 5000
-Connection ~ 9400 5000
-Wire Wire Line
-	9300 5050 9700 5050
-Wire Wire Line
-	6650 5050 9300 5050
-Connection ~ 9300 5050
-Wire Wire Line
-	9400 5300 9400 5000
-Wire Wire Line
-	9500 5300 9500 4950
 Wire Wire Line
 	11250 7550 11250 7250
 Wire Wire Line
@@ -1980,8 +1961,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 10150 8650 12400
 Wire Wire Line
-	9300 5050 9300 5900
-Wire Wire Line
 	9300 7850 11800 7850
 $Comp
 L draguve:AS6C6264 U44
@@ -2010,7 +1989,6 @@ Wire Wire Line
 	10000 5900 9300 5900
 Wire Wire Line
 	10000 5000 11750 5000
-Connection ~ 9300 5900
 Wire Wire Line
 	9300 5900 9300 7850
 Wire Wire Line
@@ -2227,7 +2205,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2450 11450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10750 3400 10750 6250
-NoConn ~ 9200 6050
 Wire Wire Line
 	10950 3400 10950 2700
 Wire Wire Line
@@ -2250,4 +2227,54 @@ F 3 "" H 11350 3000 50  0001 C CNN
 $EndComp
 NoConn ~ 10250 8150
 NoConn ~ 10250 8650
+Wire Wire Line
+	9200 5900 9300 5900
+Wire Wire Line
+	9200 5900 9200 5100
+Connection ~ 9300 5900
+Wire Wire Line
+	9300 5050 9700 5050
+Wire Wire Line
+	9300 5550 9400 5550
+Wire Wire Line
+	9400 5000 9400 5550
+Wire Wire Line
+	9300 5050 9300 5550
+Wire Wire Line
+	9500 5550 9400 5550
+Connection ~ 9400 5550
+Wire Wire Line
+	9400 5550 9400 5750
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 60F07EDE
+P 9400 5750
+F 0 "#PWR?" H 9400 5500 50  0001 C CNN
+F 1 "GND-power" H 9488 5713 50  0000 L CNN
+F 2 "" H 9400 5750 50  0001 C CNN
+F 3 "" H 9400 5750 50  0001 C CNN
+	1    9400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4850 9500 5550
+NoConn ~ 6650 5050
+NoConn ~ 6750 5000
+NoConn ~ 6850 4950
+NoConn ~ 22700 900 
+NoConn ~ 22700 1000
+NoConn ~ 22700 1100
+NoConn ~ 22700 1200
+NoConn ~ 22700 1300
+NoConn ~ 22700 1400
+NoConn ~ 22700 1500
+NoConn ~ 22700 1600
+NoConn ~ 22700 1700
+NoConn ~ 22700 1800
+NoConn ~ 22700 1900
+NoConn ~ 22700 2000
+NoConn ~ 22700 2100
+NoConn ~ 22700 2200
+NoConn ~ 22700 2300
+NoConn ~ 22700 2400
 $EndSCHEMATC

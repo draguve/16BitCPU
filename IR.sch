@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 9
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -144,19 +144,11 @@ Wire Wire Line
 Wire Wire Line
 	7250 5200 7250 5400
 Wire Wire Line
-	10300 5400 10300 5200
-Wire Wire Line
-	10200 5200 10200 5350
-Wire Wire Line
 	7350 5350 7350 5200
 Wire Wire Line
 	7450 5200 7450 5300
 Wire Wire Line
-	10100 5300 10100 5200
-Wire Wire Line
 	8550 5550 8550 2350
-Wire Wire Line
-	7450 5300 10100 5300
 Connection ~ 6750 2050
 Wire Wire Line
 	6750 2050 8850 2050
@@ -1225,25 +1217,60 @@ Wire Wire Line
 Wire Wire Line
 	7150 5450 10400 5450
 Wire Wire Line
-	7250 5400 10300 5400
-Wire Wire Line
-	7350 5350 10200 5350
-Wire Wire Line
 	7150 2450 10400 2450
 Wire Wire Line
-	7250 2550 10500 2550
+	7250 2550 10300 2550
 Wire Wire Line
 	1950 1550 2950 1550
 Wire Wire Line
-	7450 2750 10500 2750
+	7450 2750 10100 2750
 Wire Wire Line
-	7350 2650 10500 2650
+	7350 2650 10200 2650
 Wire Wire Line
 	10400 4200 10400 2450
 Connection ~ 10400 2450
 Wire Wire Line
 	10400 2450 10500 2450
-NoConn ~ 10300 4200
-NoConn ~ 10200 4200
-NoConn ~ 10100 4200
+Wire Wire Line
+	10100 5700 10200 5700
+Wire Wire Line
+	10200 5200 10200 5700
+Wire Wire Line
+	10100 5200 10100 5700
+Wire Wire Line
+	10300 5700 10200 5700
+Wire Wire Line
+	10300 5200 10300 5700
+Connection ~ 10200 5700
+Wire Wire Line
+	10200 5700 10200 5850
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 60F44F5B
+P 10200 5850
+F 0 "#PWR?" H 10200 5600 50  0001 C CNN
+F 1 "GND-power" H 10205 5677 50  0000 C CNN
+F 2 "" H 10200 5850 50  0001 C CNN
+F 3 "" H 10200 5850 50  0001 C CNN
+	1    10200 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 2550 10300 4200
+Connection ~ 10300 2550
+Wire Wire Line
+	10300 2550 10500 2550
+Wire Wire Line
+	10200 4200 10200 2650
+Connection ~ 10200 2650
+Wire Wire Line
+	10200 2650 10500 2650
+Wire Wire Line
+	10100 4200 10100 2750
+Connection ~ 10100 2750
+Wire Wire Line
+	10100 2750 10500 2750
+NoConn ~ 7250 5400
+NoConn ~ 7350 5350
+NoConn ~ 7450 5300
 $EndSCHEMATC

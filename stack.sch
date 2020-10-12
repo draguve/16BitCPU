@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -33,8 +33,6 @@ Wire Wire Line
 	4100 6100 4100 5350
 Wire Wire Line
 	4000 5350 4000 6000
-Wire Wire Line
-	4000 6000 3350 6000
 Wire Wire Line
 	2100 6000 2100 4000
 Wire Wire Line
@@ -75,12 +73,6 @@ Wire Wire Line
 	4000 950  9850 950 
 Wire Wire Line
 	4100 850  9850 850 
-Wire Wire Line
-	2000 6100 3250 6100
-Wire Wire Line
-	2200 5850 3450 5850
-Wire Wire Line
-	2700 4100 5250 4100
 Connection ~ 5350 1550
 Connection ~ 5450 1450
 Connection ~ 5550 1350
@@ -152,23 +144,11 @@ Wire Wire Line
 Wire Wire Line
 	6600 4800 6600 5000
 Wire Wire Line
-	6600 5000 9250 5000
-Wire Wire Line
-	9650 5000 9650 4800
-Wire Wire Line
-	9550 4800 9550 4950
-Wire Wire Line
-	9550 4950 9350 4950
-Wire Wire Line
 	6700 4950 6700 4800
 Wire Wire Line
 	6800 4800 6800 4900
 Wire Wire Line
-	9450 4900 9450 4800
-Wire Wire Line
 	7900 5150 7900 1950
-Wire Wire Line
-	6800 4900 9450 4900
 Connection ~ 6100 1650
 Wire Wire Line
 	6100 1650 8200 1650
@@ -221,8 +201,6 @@ Wire Wire Line
 Connection ~ 9750 2050
 Wire Wire Line
 	9750 2050 9850 2050
-Wire Wire Line
-	6100 6900 7500 6900
 Wire Wire Line
 	8100 6150 8100 6800
 $Comp
@@ -1152,132 +1130,6 @@ Wire Wire Line
 Connection ~ 2700 1550
 Wire Wire Line
 	2700 1550 5350 1550
-Text HLabel 3250 7500 3    50   Output ~ 0
-A0
-Text HLabel 3350 7500 3    50   Output ~ 0
-A1
-Text HLabel 3450 7500 3    50   Output ~ 0
-A2
-Text HLabel 3550 7500 3    50   Output ~ 0
-A3
-Text HLabel 4950 7500 3    50   Output ~ 0
-A4
-Text HLabel 5050 7500 3    50   Output ~ 0
-A5
-Text HLabel 5150 7500 3    50   Output ~ 0
-A6
-Text HLabel 5250 7500 3    50   Output ~ 0
-A7
-Text HLabel 7500 7500 3    50   Output ~ 0
-A8
-Text HLabel 7600 7500 3    50   Output ~ 0
-A9
-Text HLabel 7700 7500 3    50   Output ~ 0
-A10
-Text HLabel 7800 7500 3    50   Output ~ 0
-A11
-Text HLabel 9150 7500 3    50   Output ~ 0
-A12
-Text HLabel 9250 7500 3    50   Output ~ 0
-A13
-Text HLabel 9350 7500 3    50   Output ~ 0
-A14
-Text HLabel 9450 7500 3    50   Output ~ 0
-A15
-Wire Wire Line
-	3250 7500 3250 6100
-Connection ~ 3250 6100
-Wire Wire Line
-	3250 6100 4100 6100
-Wire Wire Line
-	3350 7500 3350 6000
-Connection ~ 3350 6000
-Wire Wire Line
-	3350 6000 2100 6000
-Wire Wire Line
-	3450 7500 3450 5850
-Connection ~ 3450 5850
-Wire Wire Line
-	3450 5850 3900 5850
-Wire Wire Line
-	3550 7500 3550 5700
-Wire Wire Line
-	2300 5700 3550 5700
-Connection ~ 3550 5700
-Wire Wire Line
-	3550 5700 3800 5700
-Wire Wire Line
-	5250 7500 5250 4100
-Connection ~ 5250 4100
-Wire Wire Line
-	5250 4100 5350 4100
-Wire Wire Line
-	2600 4150 5150 4150
-Connection ~ 5150 4150
-Wire Wire Line
-	5150 4150 5450 4150
-Wire Wire Line
-	5150 7500 5150 4150
-Wire Wire Line
-	2500 4200 5050 4200
-Connection ~ 5050 4200
-Wire Wire Line
-	5050 4200 5550 4200
-Wire Wire Line
-	4950 7500 4950 4250
-Wire Wire Line
-	2400 4250 4950 4250
-Connection ~ 4950 4250
-Wire Wire Line
-	5050 4200 5050 7500
-Wire Wire Line
-	4950 4250 5650 4250
-Wire Wire Line
-	6200 6800 7600 6800
-Wire Wire Line
-	7500 7500 7500 6900
-Connection ~ 7500 6900
-Wire Wire Line
-	7500 6900 8200 6900
-Wire Wire Line
-	7600 7500 7600 6800
-Connection ~ 7600 6800
-Wire Wire Line
-	7600 6800 8100 6800
-Wire Wire Line
-	7700 7500 7700 6650
-Wire Wire Line
-	6300 6650 7700 6650
-Connection ~ 7700 6650
-Wire Wire Line
-	7700 6650 8000 6650
-Wire Wire Line
-	7800 7500 7800 6500
-Wire Wire Line
-	6400 6500 7800 6500
-Connection ~ 7800 6500
-Wire Wire Line
-	7800 6500 7900 6500
-Wire Wire Line
-	6500 5050 9150 5050
-Wire Wire Line
-	9150 7500 9150 5050
-Connection ~ 9150 5050
-Wire Wire Line
-	9150 5050 9750 5050
-Wire Wire Line
-	9250 7500 9250 5000
-Connection ~ 9250 5000
-Wire Wire Line
-	9250 5000 9650 5000
-Wire Wire Line
-	9350 7500 9350 4950
-Connection ~ 9350 4950
-Wire Wire Line
-	9350 4950 6700 4950
-Wire Wire Line
-	9450 7500 9450 4900
-Connection ~ 9450 4900
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7355A7
@@ -1303,9 +1155,59 @@ CLR
 Text HLabel 1300 1150 0    50   3State ~ 0
 Bus3
 Text HLabel 1400 8100 0    50   Input ~ 0
-~AI
+~SI
 Text HLabel 1350 8600 0    50   Input ~ 0
-~AO
+~SO
 Text HLabel 1300 2350 0    50   3State ~ 0
 Bus15
+Wire Wire Line
+	6500 5050 9750 5050
+Wire Wire Line
+	6100 6900 8200 6900
+Wire Wire Line
+	6200 6800 8100 6800
+Wire Wire Line
+	6300 6650 8000 6650
+Wire Wire Line
+	6400 6500 7900 6500
+Wire Wire Line
+	2700 4100 5350 4100
+Wire Wire Line
+	2600 4150 5450 4150
+Wire Wire Line
+	2400 4250 5650 4250
+Wire Wire Line
+	2500 4200 5550 4200
+Wire Wire Line
+	2000 6100 4100 6100
+Wire Wire Line
+	2100 6000 4000 6000
+Wire Wire Line
+	2200 5850 3900 5850
+Wire Wire Line
+	2300 5700 3800 5700
+Wire Wire Line
+	9450 5350 9550 5350
+Wire Wire Line
+	9550 4800 9550 5350
+Wire Wire Line
+	9450 4800 9450 5350
+Wire Wire Line
+	9650 5350 9550 5350
+Wire Wire Line
+	9650 4800 9650 5350
+Connection ~ 9550 5350
+Wire Wire Line
+	9550 5350 9550 5500
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 60C78EFB
+P 9550 5500
+F 0 "#PWR?" H 9550 5250 50  0001 C CNN
+F 1 "GND-power" H 9555 5327 50  0000 C CNN
+F 2 "" H 9550 5500 50  0001 C CNN
+F 3 "" H 9550 5500 50  0001 C CNN
+	1    9550 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
