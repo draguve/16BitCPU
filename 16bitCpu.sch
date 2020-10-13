@@ -361,8 +361,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 8850 9400 10850
 Wire Wire Line
-	5350 10850 9400 10850
-Wire Wire Line
 	9450 8750 9450 10900
 Wire Wire Line
 	5400 10900 9450 10900
@@ -550,13 +548,7 @@ F21 "CE" I R 7200 2450 50
 F22 "~CO" I R 7200 2550 50 
 $EndSheet
 Connection ~ 5350 7050
-Connection ~ 5350 9800
-Wire Wire Line
-	5350 9800 5350 10850
-Connection ~ 5350 10850
 Connection ~ 5400 6950
-Connection ~ 5400 9700
-Connection ~ 5400 10900
 Connection ~ 5450 6850
 Connection ~ 5450 9600
 Connection ~ 5450 10950
@@ -677,8 +669,6 @@ Wire Wire Line
 	5550 9400 5550 11050
 Wire Wire Line
 	5500 9500 5500 11000
-Wire Wire Line
-	5400 9700 5400 10900
 Wire Wire Line
 	6100 5550 6100 7250
 Wire Wire Line
@@ -1268,8 +1258,6 @@ Wire Wire Line
 	2650 7450 2650 13800
 Wire Wire Line
 	7400 550  7400 2100
-Wire Wire Line
-	3300 600  3300 1600
 Connection ~ 3300 1600
 Wire Wire Line
 	3300 1600 3800 1600
@@ -1428,7 +1416,7 @@ Wire Wire Line
 $Sheet
 S 950  14050 800  1800
 U 61DF6CC7
-F0 "Sheet61DF6CC6" 50
+F0 "Register X" 50
 F1 "registerx.sch" 50
 F2 "CLK" I L 950 14150 50 
 F3 "Bus0" T R 1750 14100 50 
@@ -1453,9 +1441,6 @@ F21 "Bus15" T R 1750 15600 50
 $EndSheet
 Wire Wire Line
 	1750 15600 5350 15600
-Wire Wire Line
-	5350 10850 5350 15600
-Connection ~ 5350 15600
 Wire Wire Line
 	5350 15600 5350 15650
 Wire Wire Line
@@ -1566,4 +1551,19 @@ Wire Wire Line
 Wire Wire Line
 	600  14150 950  14150
 Connection ~ 2850 12600
+Connection ~ 5350 15600
+Connection ~ 5400 10900
+Connection ~ 5400 9700
+Connection ~ 5350 9800
+Wire Wire Line
+	5350 10850 5350 15600
+Wire Wire Line
+	5400 9700 5400 10900
+Connection ~ 5350 10850
+Wire Wire Line
+	5350 9800 5350 10850
+Wire Wire Line
+	5350 10850 9400 10850
+Wire Wire Line
+	3300 550  3300 1600
 $EndSCHEMATC

@@ -138,16 +138,6 @@ Wire Wire Line
 Wire Wire Line
 	7050 6900 7050 5200
 Wire Wire Line
-	7150 5200 7150 5450
-Wire Wire Line
-	10400 5450 10400 5200
-Wire Wire Line
-	7250 5200 7250 5400
-Wire Wire Line
-	7350 5350 7350 5200
-Wire Wire Line
-	7450 5200 7450 5300
-Wire Wire Line
 	8550 5550 8550 2350
 Connection ~ 6750 2050
 Wire Wire Line
@@ -201,26 +191,6 @@ F 1 "GND" H 8055 4527 50  0000 C CNN
 F 2 "" H 8050 4700 50  0001 C CNN
 F 3 "" H 8050 4700 50  0001 C CNN
 	1    8050 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 5F7C1DCB
-P 8900 4700
-AR Path="/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/5F7C1DCB" Ref="#PWR?"  Part="1" 
-AR Path="/5F79B702/5F7C1DCB" Ref="#PWR0164"  Part="1" 
-F 0 "#PWR0164" H 8900 4450 50  0001 C CNN
-F 1 "GND" H 8905 4527 50  0000 C CNN
-F 2 "" H 8900 4700 50  0001 C CNN
-F 3 "" H 8900 4700 50  0001 C CNN
-	1    8900 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -365,26 +335,6 @@ F 3 "" H 9150 6050 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 5F7C1DFB
-P 10700 4700
-AR Path="/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/5F7C1DFB" Ref="#PWR?"  Part="1" 
-AR Path="/5F79B702/5F7C1DFB" Ref="#PWR0168"  Part="1" 
-F 0 "#PWR0168" H 10700 4550 50  0001 C CNN
-F 1 "+5V" H 10715 4873 50  0000 C CNN
-F 2 "" H 10700 4700 50  0001 C CNN
-F 3 "" H 10700 4700 50  0001 C CNN
-	1    10700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1E01
 P 6600 3900
 AR Path="/5F7C1E01" Ref="#PWR?"  Part="1" 
@@ -443,12 +393,7 @@ Wire Wire Line
 	8350 5550 8350 4050
 Wire Wire Line
 	8350 4050 8450 4050
-Wire Wire Line
-	9900 4050 9900 4200
 Connection ~ 8350 5550
-Wire Wire Line
-	9800 4200 9900 4200
-Connection ~ 9900 4200
 $Comp
 L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1E1C
@@ -471,17 +416,8 @@ F 3 "" H 8450 4050 50  0001 C CNN
 $EndComp
 Connection ~ 8450 4050
 Wire Wire Line
-	8450 4050 9900 4050
-Wire Wire Line
 	7850 5550 7850 1000
-Wire Wire Line
-	7850 1000 9400 1000
 Connection ~ 7850 1000
-Wire Wire Line
-	9400 4200 9400 1000
-Connection ~ 9400 1000
-Wire Wire Line
-	9400 1000 10500 1000
 Wire Wire Line
 	5300 3400 5300 1000
 Wire Wire Line
@@ -506,10 +442,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 5550 6400 8150
 Connection ~ 6400 8150
-Wire Wire Line
-	9200 4200 9200 3450
-Wire Wire Line
-	9200 3450 10900 3450
 Wire Wire Line
 	6400 8150 10900 8150
 Wire Wire Line
@@ -545,18 +477,9 @@ Wire Wire Line
 	8000 5100 8250 5100
 Wire Wire Line
 	8250 5100 8250 3850
-Wire Wire Line
-	8250 3850 9550 3850
-Wire Wire Line
-	9550 3850 9550 4200
-Wire Wire Line
-	9550 4200 9600 4200
 Connection ~ 8000 5550
 Wire Wire Line
 	8000 5550 8050 5550
-Wire Wire Line
-	9550 4200 9500 4200
-Connection ~ 9550 4200
 Wire Wire Line
 	3850 4750 3900 4750
 Wire Wire Line
@@ -660,26 +583,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 3150 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 16bitCpu-rescue:74LS173-74xx U?
-U 1 1 5F7C1E93
-P 9800 4700
-AR Path="/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/5F67C726/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/5F70885A/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/5F733C5E/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/602D4838/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/603B00C8/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/603B766D/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/5F74778C/5F7C1E93" Ref="U?"  Part="1" 
-AR Path="/5F79B702/5F7C1E93" Ref="U52"  Part="1" 
-F 0 "U52" V 9754 5644 50  0000 L CNN
-F 1 "74LS173" V 9845 5644 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 9800 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 9800 4700 50  0001 C CNN
-	1    9800 4700
-	0    1    1    0   
-$EndComp
-$Comp
 L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 5F7C1E99
 P 8050 4700
@@ -697,26 +600,6 @@ F 1 "GND" H 8055 4527 50  0000 C CNN
 F 2 "" H 8050 4700 50  0001 C CNN
 F 3 "" H 8050 4700 50  0001 C CNN
 	1    8050 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 5F7C1E9F
-P 8900 4700
-AR Path="/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/5F7C1E9F" Ref="#PWR?"  Part="1" 
-AR Path="/5F79B702/5F7C1E9F" Ref="#PWR0165"  Part="1" 
-F 0 "#PWR0165" H 8900 4450 50  0001 C CNN
-F 1 "GND" H 8905 4527 50  0000 C CNN
-F 2 "" H 8900 4700 50  0001 C CNN
-F 3 "" H 8900 4700 50  0001 C CNN
-	1    8900 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -881,26 +764,6 @@ F 3 "" H 9150 6050 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 5F7C1ED5
-P 10700 4700
-AR Path="/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/5F7C1ED5" Ref="#PWR?"  Part="1" 
-AR Path="/5F79B702/5F7C1ED5" Ref="#PWR0169"  Part="1" 
-F 0 "#PWR0169" H 10700 4550 50  0001 C CNN
-F 1 "+5V" H 10715 4873 50  0000 C CNN
-F 2 "" H 10700 4700 50  0001 C CNN
-F 3 "" H 10700 4700 50  0001 C CNN
-	1    10700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F7C1EDB
 P 6600 3900
 AR Path="/5F7C1EDB" Ref="#PWR?"  Part="1" 
@@ -996,8 +859,6 @@ Bus15
 Connection ~ 4250 4750
 Connection ~ 5050 5250
 Connection ~ 3250 5250
-Wire Wire Line
-	10900 3450 10900 8150
 $Comp
 L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 5F7C1F02
@@ -1215,62 +1076,47 @@ Wire Wire Line
 Wire Wire Line
 	7050 6900 8550 6900
 Wire Wire Line
-	7150 5450 10400 5450
-Wire Wire Line
-	7150 2450 10400 2450
-Wire Wire Line
-	7250 2550 10300 2550
-Wire Wire Line
 	1950 1550 2950 1550
-Wire Wire Line
-	7450 2750 10100 2750
-Wire Wire Line
-	7350 2650 10200 2650
-Wire Wire Line
-	10400 4200 10400 2450
-Connection ~ 10400 2450
-Wire Wire Line
-	10400 2450 10500 2450
-Wire Wire Line
-	10100 5700 10200 5700
-Wire Wire Line
-	10200 5200 10200 5700
-Wire Wire Line
-	10100 5200 10100 5700
-Wire Wire Line
-	10300 5700 10200 5700
-Wire Wire Line
-	10300 5200 10300 5700
-Connection ~ 10200 5700
-Wire Wire Line
-	10200 5700 10200 5850
 $Comp
 L 16bitCpu-rescue:GND-power #PWR0182
 U 1 1 60F44F5B
-P 10200 5850
-F 0 "#PWR0182" H 10200 5600 50  0001 C CNN
-F 1 "GND-power" H 10205 5677 50  0000 C CNN
-F 2 "" H 10200 5850 50  0001 C CNN
-F 3 "" H 10200 5850 50  0001 C CNN
-	1    10200 5850
+P 7300 5350
+F 0 "#PWR0182" H 7300 5100 50  0001 C CNN
+F 1 "GND-power" H 7305 5177 50  0000 C CNN
+F 2 "" H 7300 5350 50  0001 C CNN
+F 3 "" H 7300 5350 50  0001 C CNN
+	1    7300 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 2550 10300 4200
-Connection ~ 10300 2550
+	7150 2450 10500 2450
 Wire Wire Line
-	10300 2550 10500 2550
+	7250 2550 10500 2550
 Wire Wire Line
-	10200 4200 10200 2650
-Connection ~ 10200 2650
+	7350 2650 10500 2650
 Wire Wire Line
-	10200 2650 10500 2650
+	7450 2750 10500 2750
 Wire Wire Line
-	10100 4200 10100 2750
-Connection ~ 10100 2750
+	7850 1000 10500 1000
 Wire Wire Line
-	10100 2750 10500 2750
-NoConn ~ 7250 5400
-NoConn ~ 7350 5350
-NoConn ~ 7450 5300
+	7150 5200 7150 5300
+Wire Wire Line
+	7150 5300 7250 5300
+Wire Wire Line
+	7250 5300 7250 5200
+Wire Wire Line
+	7250 5300 7300 5300
+Wire Wire Line
+	7350 5300 7350 5200
+Connection ~ 7250 5300
+Wire Wire Line
+	7350 5300 7450 5300
+Wire Wire Line
+	7450 5300 7450 5200
+Connection ~ 7350 5300
+Wire Wire Line
+	7300 5350 7300 5300
+Connection ~ 7300 5300
+Wire Wire Line
+	7300 5300 7350 5300
 $EndSCHEMATC

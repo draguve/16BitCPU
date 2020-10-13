@@ -1428,7 +1428,7 @@ Wire Wire Line
 $Sheet
 S 950  14050 800  1800
 U 61DF6CC7
-F0 "Sheet61DF6CC6" 50
+F0 "Register X" 50
 F1 "registerx.sch" 50
 F2 "CLK" I L 950 14150 50 
 F3 "Bus0" T R 1750 14100 50 
