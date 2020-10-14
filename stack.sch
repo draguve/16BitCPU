@@ -1220,19 +1220,6 @@ Wire Wire Line
 	2200 5850 3900 5850
 Wire Wire Line
 	2300 5700 3800 5700
-Wire Wire Line
-	9450 5350 9550 5350
-Wire Wire Line
-	9550 4800 9550 5350
-Wire Wire Line
-	9450 4800 9450 5350
-Wire Wire Line
-	9650 5350 9550 5350
-Wire Wire Line
-	9650 4800 9650 5350
-Connection ~ 9550 5350
-Wire Wire Line
-	9550 5350 9550 5500
 $Comp
 L 16bitCpu-rescue:GND-power #PWR0211
 U 1 1 60C78EFB
@@ -1244,4 +1231,17 @@ F 3 "" H 9550 5500 50  0001 C CNN
 	1    9550 5500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9550 5350 9550 5500
+Wire Wire Line
+	9450 4800 9450 5350
+Connection ~ 9550 5350
+Wire Wire Line
+	9550 4800 9550 5350
+Wire Wire Line
+	9450 5350 9550 5350
+Wire Wire Line
+	6600 5000 9650 5000
+Wire Wire Line
+	9650 5000 9650 4800
 $EndSCHEMATC

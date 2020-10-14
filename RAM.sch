@@ -1103,11 +1103,6 @@ Wire Wire Line
 	5100 4250 5100 7250
 Wire Wire Line
 	5000 4300 5700 4300
-Wire Wire Line
-	6550 5100 9200 5100
-Connection ~ 9200 5100
-Wire Wire Line
-	9200 5100 9800 5100
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6DEAA3
@@ -1128,21 +1123,8 @@ F 3 "" H 1750 3550 50  0001 C CNN
 	1    1750 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L draguve:AS6C6264 U43
-U 1 1 5F6F3976
-P 11650 4500
-F 0 "U43" H 12150 6081 50  0000 C CNN
-F 1 "AS6C6264" H 12150 5990 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm" H 12300 6200 50  0001 C CNN
-F 3 "" H 12300 6200 50  0001 C CNN
-	1    11650 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8800 650  15800 650 
-Wire Wire Line
-	10750 3400 10950 3400
 Wire Wire Line
 	10750 6250 11800 6250
 Wire Wire Line
@@ -1303,8 +1285,6 @@ Wire Wire Line
 Connection ~ 11350 7450
 Wire Wire Line
 	11350 7450 11350 4600
-Text Label 9300 5300 3    50   ~ 0
-A13
 Text Label 9400 5300 3    50   ~ 0
 A14
 Text Label 9500 5300 3    50   ~ 0
@@ -1341,8 +1321,6 @@ Wire Wire Line
 	12600 6850 15000 6850
 Wire Wire Line
 	11750 4900 11550 4900
-Wire Wire Line
-	11550 5550 12200 5550
 Wire Wire Line
 	11800 7750 11600 7750
 Wire Wire Line
@@ -1395,10 +1373,6 @@ F 3 "" H 12200 5850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12200 5950 12200 5850
-Wire Wire Line
-	11550 4900 11550 5550
-Wire Wire Line
-	12200 5500 12200 5550
 $Comp
 L 16bitCpu-rescue:GND-power #PWR0135
 U 1 1 6038BAE8
@@ -1432,9 +1406,6 @@ $EndComp
 Wire Wire Line
 	12250 8400 12250 8450
 Connection ~ 12250 8400
-Wire Wire Line
-	12200 5550 12200 5600
-Connection ~ 12200 5550
 NoConn ~ 11800 8050
 NoConn ~ 11750 5200
 $Comp
@@ -1988,11 +1959,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 5900 9300 5900
 Wire Wire Line
-	10000 5000 11750 5000
-Wire Wire Line
 	9300 5900 9300 7850
-Wire Wire Line
-	12150 3000 12150 3100
 $Comp
 L 16bitCpu-rescue:GND-power #PWR0132
 U 1 1 60A67B07
@@ -2204,42 +2171,11 @@ F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2450 11450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 3400 10750 6250
-Wire Wire Line
-	10950 3400 10950 2700
-Wire Wire Line
-	10950 2700 11350 2700
-Wire Wire Line
-	11350 2700 11350 3000
-Connection ~ 10950 3400
-Wire Wire Line
-	10950 3400 11750 3400
-$Comp
-L 16bitCpu-rescue:GND-power #PWR0181
-U 1 1 5FAE8C08
-P 11350 3000
-F 0 "#PWR0181" H 11350 2750 50  0001 C CNN
-F 1 "GND-power" H 11355 2827 50  0000 C CNN
-F 2 "" H 11350 3000 50  0001 C CNN
-F 3 "" H 11350 3000 50  0001 C CNN
-	1    11350 3000
-	1    0    0    -1  
-$EndComp
+	10750 3400 10750 4850
 NoConn ~ 10250 8150
 NoConn ~ 10250 8650
 Wire Wire Line
-	9200 5900 9300 5900
-Wire Wire Line
-	9200 5900 9200 5100
-Connection ~ 9300 5900
-Wire Wire Line
-	9300 5050 9700 5050
-Wire Wire Line
-	9300 5550 9400 5550
-Wire Wire Line
 	9400 5000 9400 5550
-Wire Wire Line
-	9300 5050 9300 5550
 Wire Wire Line
 	9500 5550 9400 5550
 Connection ~ 9400 5550
@@ -2258,7 +2194,6 @@ F 3 "" H 9400 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9500 4850 9500 5550
-NoConn ~ 6650 5050
 NoConn ~ 6750 5000
 NoConn ~ 6850 4950
 NoConn ~ 22700 900 
@@ -2277,4 +2212,52 @@ NoConn ~ 22700 2100
 NoConn ~ 22700 2200
 NoConn ~ 22700 2300
 NoConn ~ 22700 2400
+Connection ~ 9300 5900
+Wire Wire Line
+	9200 5900 9300 5900
+Wire Wire Line
+	9700 5050 9200 5050
+Wire Wire Line
+	6550 5100 9800 5100
+Wire Wire Line
+	9200 5900 9200 5050
+Connection ~ 9200 5050
+Wire Wire Line
+	9200 5050 6650 5050
+Wire Wire Line
+	9800 5100 9900 5100
+Wire Wire Line
+	9900 5100 9900 4850
+Wire Wire Line
+	9900 4850 10750 4850
+Connection ~ 9800 5100
+Connection ~ 10750 4850
+Wire Wire Line
+	10750 4850 10750 6250
+Wire Wire Line
+	10750 3400 11750 3400
+$Comp
+L draguve:AS6C6264 U43
+U 1 1 5F6F3976
+P 11650 4500
+F 0 "U43" H 12150 6081 50  0000 C CNN
+F 1 "AS6C6264" H 12150 5990 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 12300 6200 50  0001 C CNN
+F 3 "" H 12300 6200 50  0001 C CNN
+	1    11650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 5500 12200 5550
+Wire Wire Line
+	12200 5550 12200 5600
+Connection ~ 12200 5550
+Wire Wire Line
+	11550 5550 12200 5550
+Wire Wire Line
+	12150 3000 12150 3100
+Wire Wire Line
+	10000 5000 11750 5000
+Wire Wire Line
+	11550 4900 11550 5550
 $EndSCHEMATC
