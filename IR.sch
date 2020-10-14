@@ -68,14 +68,6 @@ Connection ~ 4550 1450
 Connection ~ 4650 1350
 Connection ~ 4750 1250
 Wire Wire Line
-	4550 1450 10500 1450
-Wire Wire Line
-	4450 1550 10500 1550
-Wire Wire Line
-	4650 1350 10500 1350
-Wire Wire Line
-	4750 1250 10500 1250
-Wire Wire Line
 	2650 6500 3900 6500
 Wire Wire Line
 	2850 6250 4100 6250
@@ -85,14 +77,6 @@ Connection ~ 6000 1950
 Connection ~ 6100 1850
 Connection ~ 6200 1750
 Connection ~ 6300 1650
-Wire Wire Line
-	6300 1650 10500 1650
-Wire Wire Line
-	6200 1750 10500 1750
-Wire Wire Line
-	6100 1850 10500 1850
-Wire Wire Line
-	6000 1950 10500 1950
 Wire Wire Line
 	1950 2150 6850 2150
 Wire Wire Line
@@ -170,17 +154,9 @@ Wire Wire Line
 	7450 4200 7450 2750
 Connection ~ 7450 2750
 Connection ~ 8550 2350
-Wire Wire Line
-	8550 2350 10500 2350
 Connection ~ 8650 2250
-Wire Wire Line
-	8650 2250 10500 2250
 Connection ~ 8750 2150
-Wire Wire Line
-	8750 2150 10500 2150
 Connection ~ 8850 2050
-Wire Wire Line
-	8850 2050 10500 2050
 Wire Wire Line
 	8750 6550 8750 7200
 $Comp
@@ -1207,8 +1183,6 @@ $EndComp
 Text HLabel 2000 8150 0    50   Input ~ 0
 CLR
 Wire Wire Line
-	6750 7300 8850 7300
-Wire Wire Line
 	6850 7200 8750 7200
 Wire Wire Line
 	6950 7050 8650 7050
@@ -1230,22 +1204,14 @@ Wire Wire Line
 	10400 4200 10400 2450
 Connection ~ 10400 2450
 Wire Wire Line
-	10400 2450 10500 2450
-Wire Wire Line
 	10300 2550 10300 4200
 Connection ~ 10300 2550
-Wire Wire Line
-	10300 2550 10500 2550
 Wire Wire Line
 	10200 4200 10200 2650
 Connection ~ 10200 2650
 Wire Wire Line
-	10200 2650 10500 2650
-Wire Wire Line
 	10100 4200 10100 2750
 Connection ~ 10100 2750
-Wire Wire Line
-	10100 2750 10500 2750
 Wire Wire Line
 	7250 5400 10300 5400
 Wire Wire Line
@@ -1258,4 +1224,211 @@ Wire Wire Line
 	10100 5200 10100 5300
 Wire Wire Line
 	10100 5300 7450 5300
+Wire Wire Line
+	4750 1250 11800 1250
+Wire Wire Line
+	4650 1350 11900 1350
+Wire Wire Line
+	4550 1450 12000 1450
+Wire Wire Line
+	4450 1550 12100 1550
+Wire Wire Line
+	6300 1650 12200 1650
+Wire Wire Line
+	6200 1750 12300 1750
+Wire Wire Line
+	8850 2050 16250 2050
+Wire Wire Line
+	8750 2150 16250 2150
+Wire Wire Line
+	8650 2250 16250 2250
+Wire Wire Line
+	8550 2350 16250 2350
+Wire Wire Line
+	10400 2450 16250 2450
+Wire Wire Line
+	10300 2550 16250 2550
+Wire Wire Line
+	10200 2650 16250 2650
+Wire Wire Line
+	10100 2750 16250 2750
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 600A759A
+P 13100 4700
+AR Path="/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/5F70885A/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/600A759A" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B702/600A759A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13100 4450 50  0001 C CNN
+F 1 "GND" H 13105 4527 50  0000 C CNN
+F 2 "" H 13100 4700 50  0001 C CNN
+F 3 "" H 13100 4700 50  0001 C CNN
+	1    13100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 600A75A1
+P 13100 4700
+AR Path="/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F70885A/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/600A75A1" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B702/600A75A1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13100 4450 50  0001 C CNN
+F 1 "GND" H 13105 4527 50  0000 C CNN
+F 2 "" H 13100 4700 50  0001 C CNN
+F 3 "" H 13100 4700 50  0001 C CNN
+	1    13100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:74LS245-74xx U?
+U 1 1 600A75A7
+P 12300 4700
+AR Path="/600A75A7" Ref="U?"  Part="1" 
+AR Path="/5F67C726/600A75A7" Ref="U?"  Part="1" 
+AR Path="/5F70885A/600A75A7" Ref="U?"  Part="1" 
+AR Path="/5F733C5E/600A75A7" Ref="U?"  Part="1" 
+AR Path="/602D4838/600A75A7" Ref="U?"  Part="1" 
+AR Path="/603B00C8/600A75A7" Ref="U?"  Part="1" 
+AR Path="/603B766D/600A75A7" Ref="U?"  Part="1" 
+AR Path="/5F74778C/600A75A7" Ref="U?"  Part="1" 
+AR Path="/5F79B702/600A75A7" Ref="U?"  Part="1" 
+F 0 "U?" V 12346 3856 50  0000 R CNN
+F 1 "74LS245" V 12255 3856 50  0000 R CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 12300 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 12300 4700 50  0001 C CNN
+	1    12300 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 16bitCpu-rescue:+5V-power #PWR?
+U 1 1 600BC57F
+P 11500 4700
+AR Path="/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/5F70885A/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/600BC57F" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B702/600BC57F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11500 4550 50  0001 C CNN
+F 1 "+5V" H 11515 4873 50  0000 C CNN
+F 2 "" H 11500 4700 50  0001 C CNN
+F 3 "" H 11500 4700 50  0001 C CNN
+	1    11500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 4200 11800 1250
+Connection ~ 11800 1250
+Wire Wire Line
+	11800 1250 16250 1250
+Wire Wire Line
+	11900 4200 11900 1350
+Connection ~ 11900 1350
+Wire Wire Line
+	11900 1350 16250 1350
+Wire Wire Line
+	12000 4200 12000 1450
+Connection ~ 12000 1450
+Wire Wire Line
+	12000 1450 16250 1450
+Connection ~ 12100 1550
+Wire Wire Line
+	12100 1550 16250 1550
+Wire Wire Line
+	12100 1550 12100 4200
+Wire Wire Line
+	12200 4200 12200 1650
+Connection ~ 12200 1650
+Wire Wire Line
+	12200 1650 16250 1650
+Wire Wire Line
+	12300 4200 12300 1750
+Connection ~ 12300 1750
+Wire Wire Line
+	12300 1750 16250 1750
+Wire Wire Line
+	6000 1950 12500 1950
+Wire Wire Line
+	6100 1850 12400 1850
+Wire Wire Line
+	12400 4200 12400 1850
+Connection ~ 12400 1850
+Wire Wire Line
+	12400 1850 16250 1850
+Wire Wire Line
+	12500 4200 12500 1950
+Connection ~ 12500 1950
+Wire Wire Line
+	12500 1950 16250 1950
+Wire Wire Line
+	10100 5300 12500 5300
+Wire Wire Line
+	12500 5300 12500 5200
+Connection ~ 10100 5300
+Wire Wire Line
+	10200 5350 12400 5350
+Wire Wire Line
+	12400 5350 12400 5200
+Connection ~ 10200 5350
+Wire Wire Line
+	10300 5400 12300 5400
+Wire Wire Line
+	12300 5400 12300 5200
+Connection ~ 10300 5400
+Wire Wire Line
+	10400 5450 12200 5450
+Wire Wire Line
+	12200 5450 12200 5200
+Connection ~ 10400 5450
+Wire Wire Line
+	11800 7300 11800 5200
+Wire Wire Line
+	6750 7300 8850 7300
+Connection ~ 8850 7300
+Wire Wire Line
+	8850 7300 11800 7300
+Wire Wire Line
+	8750 7200 11900 7200
+Wire Wire Line
+	11900 7200 11900 5200
+Connection ~ 8750 7200
+Wire Wire Line
+	8650 7050 12000 7050
+Wire Wire Line
+	12000 7050 12000 5200
+Connection ~ 8650 7050
+Wire Wire Line
+	8550 6900 12100 6900
+Wire Wire Line
+	12100 6900 12100 5200
+Connection ~ 8550 6900
+Wire Wire Line
+	12700 5200 12700 5500
+Wire Wire Line
+	12700 5500 11500 5500
+Wire Wire Line
+	11500 5500 11500 4700
+Connection ~ 11500 4700
+Wire Wire Line
+	2100 9550 12800 9550
+Wire Wire Line
+	12800 9550 12800 5200
+Text HLabel 2100 9550 0    50   Input ~ 0
+~I80
 $EndSCHEMATC

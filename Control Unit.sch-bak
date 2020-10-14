@@ -465,7 +465,7 @@ Text HLabel 8450 5550 2    50   Output ~ 0
 Text HLabel 8450 5650 2    50   Output ~ 0
 ~IR_AO
 Text HLabel 8450 5750 2    50   Output ~ 0
-~IR_13AO
+~IR_8O
 Text HLabel 8450 5850 2    50   Output ~ 0
 ~PC_J
 Text HLabel 8450 5950 2    50   Output ~ 0
