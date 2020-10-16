@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 8 20
 Title ""
 Date ""
 Rev ""
@@ -723,5 +723,4 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 9300 1500 50  0001 C CNN
 	1    8450 1900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5450 5050
 $EndSCHEMATC

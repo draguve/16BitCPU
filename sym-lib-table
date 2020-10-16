@@ -1,6 +1,7 @@
 (sym_lib_table
   (lib (name draguve)(type Legacy)(uri ${KIPRJMOD}/draguve.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/74xx.lib)(options "")(descr ""))
   (lib (name AT28C64B-15PU)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/ROM/AT28C64B-15PU.lib)(options "")(descr ""))
   (lib (name 16bitCpu-rescue)(type Legacy)(uri ${KIPRJMOD}/16bitCpu-rescue.lib)(options "")(descr ""))
-  (lib (name 74xx)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/74xx.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/Device.lib)(options "")(descr ""))
 )
