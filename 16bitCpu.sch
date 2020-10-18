@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 1 20
+Sheet 1 21
 Title ""
 Date ""
 Rev ""
@@ -435,10 +435,10 @@ Wire Wire Line
 Wire Wire Line
 	10250 350  10500 350 
 $Comp
-L 16bitCpu-rescue:GND-power #PWR?
+L 16bitCpu-rescue:GND-power #PWR06
 U 1 1 5FAE3C9B
 P 10500 450
-F 0 "#PWR?" H 10500 200 50  0001 C CNN
+F 0 "#PWR06" H 10500 200 50  0001 C CNN
 F 1 "GND-power" H 10505 277 50  0000 C CNN
 F 2 "" H 10500 450 50  0001 C CNN
 F 3 "" H 10500 450 50  0001 C CNN
@@ -446,10 +446,10 @@ F 3 "" H 10500 450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 16bitCpu-rescue:+5V-power #PWR?
+L 16bitCpu-rescue:+5V-power #PWR05
 U 1 1 5FAE3F33
 P 10400 -50
-F 0 "#PWR?" H 10400 -200 50  0001 C CNN
+F 0 "#PWR05" H 10400 -200 50  0001 C CNN
 F 1 "+5V-power" H 10415 123 50  0000 C CNN
 F 2 "" H 10400 -50 50  0001 C CNN
 F 3 "" H 10400 -50 50  0001 C CNN
@@ -462,10 +462,10 @@ Wire Wire Line
 	10650 50   10650 -50 
 Connection ~ 10400 50  
 $Comp
-L 16bitCpu-rescue:VCC-power #PWR?
+L 16bitCpu-rescue:VCC-power #PWR07
 U 1 1 5FB3A0D7
 P 10650 -50
-F 0 "#PWR?" H 10650 -200 50  0001 C CNN
+F 0 "#PWR07" H 10650 -200 50  0001 C CNN
 F 1 "VCC-power" H 10665 123 50  0000 C CNN
 F 2 "" H 10650 -50 50  0001 C CNN
 F 3 "" H 10650 -50 50  0001 C CNN
