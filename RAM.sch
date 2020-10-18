@@ -47,22 +47,6 @@ Text HLabel 1350 2300 0    50   3State ~ 0
 Bus14
 Text HLabel 1350 2400 0    50   3State ~ 0
 Bus15
-NoConn ~ 22700 900 
-NoConn ~ 22700 1000
-NoConn ~ 22700 1100
-NoConn ~ 22700 1200
-NoConn ~ 22700 1300
-NoConn ~ 22700 1400
-NoConn ~ 22700 1500
-NoConn ~ 22700 1600
-NoConn ~ 22700 1700
-NoConn ~ 22700 1800
-NoConn ~ 22700 1900
-NoConn ~ 22700 2000
-NoConn ~ 22700 2100
-NoConn ~ 22700 2200
-NoConn ~ 22700 2300
-NoConn ~ 22700 2400
 Connection ~ 9500 2400
 Connection ~ 8250 1700
 Connection ~ 8150 1800
@@ -1234,8 +1218,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 20050 13700 50  0001 C CNN
 	5    20050 13700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10250 8150
-NoConn ~ 10250 8650
 Wire Wire Line
 	6550 5100 9800 5100
 $Sheet

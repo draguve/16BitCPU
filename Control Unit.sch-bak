@@ -562,29 +562,6 @@ F 3 "" H 11300 10400 50  0001 C CNN
 $EndComp
 $Comp
 L Device:LED D?
-U 1 1 625D64E8
-P 11600 10400
-AR Path="/5F926C74/625D64E8" Ref="D?"  Part="1" 
-AR Path="/61968B9B/60C9B37A/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5F67C726/60E31E38/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5F74778C/60E31E38/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5F5F4A69/61054F55/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5F6ACD14/6156E9B6/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5F681977/6183038C/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5F681977/61B5B13E/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5F79B702/621E2556/625D64E8" Ref="D?"  Part="1" 
-AR Path="/61DF6CC7/623AC6EB/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5FD099BF/625B6FDA/625D64E8" Ref="D?"  Part="1" 
-AR Path="/5FD099BF/625D64E8" Ref="D63"  Part="1" 
-F 0 "D63" V 11639 10282 50  0000 R CNN
-F 1 "LED" V 11548 10282 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" H 11600 10400 50  0001 C CNN
-F 3 "" H 11600 10400 50  0001 C CNN
-	1    11600 10400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D?
 U 1 1 625D64EE
 P 11900 10400
 AR Path="/5F926C74/625D64EE" Ref="D?"  Part="1" 
@@ -787,8 +764,6 @@ Wire Wire Line
 Wire Wire Line
 	11300 10550 11300 10700
 Wire Wire Line
-	11600 10550 11600 10700
-Wire Wire Line
 	11900 10550 11900 10700
 Wire Wire Line
 	12200 10550 12200 10700
@@ -965,29 +940,6 @@ F 1 "220" H 11370 10805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 11230 10850 50  0001 C CNN
 F 3 "" H 11300 10850 50  0001 C CNN
 	1    11300 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 625D657C
-P 11600 10850
-AR Path="/5F926C74/625D657C" Ref="R?"  Part="1" 
-AR Path="/61968B9B/60C9B37A/625D657C" Ref="R?"  Part="1" 
-AR Path="/5F67C726/60E31E38/625D657C" Ref="R?"  Part="1" 
-AR Path="/5F74778C/60E31E38/625D657C" Ref="R?"  Part="1" 
-AR Path="/5F5F4A69/61054F55/625D657C" Ref="R?"  Part="1" 
-AR Path="/5F6ACD14/6156E9B6/625D657C" Ref="R?"  Part="1" 
-AR Path="/5F681977/6183038C/625D657C" Ref="R?"  Part="1" 
-AR Path="/5F681977/61B5B13E/625D657C" Ref="R?"  Part="1" 
-AR Path="/5F79B702/621E2556/625D657C" Ref="R?"  Part="1" 
-AR Path="/61DF6CC7/623AC6EB/625D657C" Ref="R?"  Part="1" 
-AR Path="/5FD099BF/625B6FDA/625D657C" Ref="R?"  Part="1" 
-AR Path="/5FD099BF/625D657C" Ref="R64"  Part="1" 
-F 0 "R64" H 11670 10896 50  0000 L CNN
-F 1 "220" H 11670 10805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 11530 10850 50  0001 C CNN
-F 3 "" H 11600 10850 50  0001 C CNN
-	1    11600 10850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1170,11 +1122,6 @@ Connection ~ 11000 11000
 Wire Wire Line
 	11000 11000 11300 11000
 Connection ~ 11300 11000
-Wire Wire Line
-	11300 11000 11600 11000
-Connection ~ 11600 11000
-Wire Wire Line
-	11600 11000 11900 11000
 Connection ~ 12200 11000
 Wire Wire Line
 	12200 11000 12500 11000
@@ -1515,8 +1462,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 11800 2900 50  0001 C CNN
 	1    11800 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 13600 4800 2    50   Output ~ 0
-~SO
 Text HLabel 13600 7400 2    50   Output ~ 0
 ~SI
 Text HLabel 13600 3200 2    50   Output ~ 0
@@ -1540,12 +1485,10 @@ Wire Wire Line
 	7150 3200 7400 3200
 Wire Wire Line
 	12300 4900 12850 4900
-Text HLabel 13600 4900 2    50   Output ~ 0
+Text HLabel 13600 4800 2    50   Output ~ 0
 ~ALU_EO
 Text HLabel 8450 3300 2    50   Output ~ 0
 ALU_SU
-Wire Wire Line
-	13600 4800 12800 4800
 Wire Wire Line
 	11300 3200 11300 3300
 Wire Wire Line
@@ -1589,9 +1532,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 3100 11300 3100
 Connection ~ 11800 2300
-Wire Wire Line
-	12300 5000 12900 5000
-Text HLabel 13600 5000 2    50   Output ~ 0
+Text HLabel 13600 4900 2    50   Output ~ 0
 ~ALU_NAND_O
 $Comp
 L 74xx:74LS138 U24
@@ -1862,7 +1803,6 @@ Wire Wire Line
 	11000 8600 12800 8600
 Wire Wire Line
 	12800 8600 12800 4800
-Connection ~ 12800 4800
 Wire Wire Line
 	12800 4800 12300 4800
 Wire Wire Line
@@ -1871,18 +1811,6 @@ Wire Wire Line
 	11300 8650 12850 8650
 Wire Wire Line
 	12850 8650 12850 4900
-Connection ~ 12850 4900
-Wire Wire Line
-	12850 4900 13600 4900
-Wire Wire Line
-	11600 10250 11600 8700
-Wire Wire Line
-	11600 8700 12900 8700
-Wire Wire Line
-	12900 8700 12900 5000
-Connection ~ 12900 5000
-Wire Wire Line
-	12900 5000 13600 5000
 Wire Wire Line
 	11900 10250 11900 8750
 Wire Wire Line
@@ -2164,4 +2092,21 @@ Wire Wire Line
 	7950 3700 7950 5050
 Wire Wire Line
 	2500 4900 4150 4900
+Wire Wire Line
+	12850 4900 13600 4900
+Connection ~ 12850 4900
+Wire Wire Line
+	12800 4800 13600 4800
+Connection ~ 12800 4800
+Wire Wire Line
+	11300 11000 11900 11000
+NoConn ~ 12300 6700
+NoConn ~ 12300 5300
+NoConn ~ 12300 5200
+NoConn ~ 12300 5100
+NoConn ~ 12300 5000
+NoConn ~ 12300 4600
+NoConn ~ 7150 5550
+NoConn ~ 7150 5450
+NoConn ~ 4050 2050
 $EndSCHEMATC
