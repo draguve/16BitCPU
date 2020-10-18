@@ -64,26 +64,6 @@ F 3 "" H 4750 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 16bitCpu-rescue:GND-power #PWR?
-U 1 1 5F6D5FE4
-P 3150 3650
-AR Path="/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/5F6D5FE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F6ACD14/5F6D5FE4" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 3150 3400 50  0001 C CNN
-F 1 "GND" H 3155 3477 50  0000 C CNN
-F 2 "" H 3150 3650 50  0001 C CNN
-F 3 "" H 3150 3650 50  0001 C CNN
-	1    3150 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6D5FF6
 P 3150 4450

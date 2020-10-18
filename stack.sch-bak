@@ -833,27 +833,6 @@ F 3 "" H 4400 4850 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 616C3797
-P 5800 4300
-AR Path="/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/5FB94562/616C3797" Ref="#PWR?"  Part="1" 
-AR Path="/61968B9B/616C3797" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 5800 4150 50  0001 C CNN
-F 1 "+5V" H 5815 4473 50  0000 C CNN
-F 2 "" H 5800 4300 50  0001 C CNN
-F 3 "" H 5800 4300 50  0001 C CNN
-	1    5800 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 616C3798
 P 8500 5650
 AR Path="/616C3798" Ref="#PWR?"  Part="1" 
@@ -892,27 +871,6 @@ F 1 "+5V" H 10065 4473 50  0000 C CNN
 F 2 "" H 10050 4300 50  0001 C CNN
 F 3 "" H 10050 4300 50  0001 C CNN
 	1    10050 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 616C379A
-P 5950 3500
-AR Path="/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/5FB94562/616C379A" Ref="#PWR?"  Part="1" 
-AR Path="/61968B9B/616C379A" Ref="#PWR0111"  Part="1" 
-F 0 "#PWR0111" H 5950 3350 50  0001 C CNN
-F 1 "+5V" H 5965 3673 50  0000 C CNN
-F 2 "" H 5950 3500 50  0001 C CNN
-F 3 "" H 5950 3500 50  0001 C CNN
-	1    5950 3500
 	1    0    0    -1  
 $EndComp
 $Comp
