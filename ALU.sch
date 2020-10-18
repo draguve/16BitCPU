@@ -357,19 +357,6 @@ F 3 "" H 12150 17800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 60667C5F
-P 14100 17800
-AR Path="/60667C5F" Ref="#PWR?"  Part="1" 
-AR Path="/5F5F4A69/60667C5F" Ref="#PWR0177"  Part="1" 
-F 0 "#PWR0177" H 14100 17650 50  0001 C CNN
-F 1 "+5V" H 14115 17973 50  0000 C CNN
-F 2 "" H 14100 17800 50  0001 C CNN
-F 3 "" H 14100 17800 50  0001 C CNN
-	1    14100 17800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L 16bitCpu-rescue:GND-power #PWR?
 U 1 1 60685A34
 P 13750 17800
@@ -516,19 +503,6 @@ Wire Wire Line
 Connection ~ 4900 18650
 Wire Wire Line
 	5350 18650 4900 18650
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR0188
-U 1 1 5F826AFE
-P 18350 17850
-F 0 "#PWR0188" H 18350 17700 50  0001 C CNN
-F 1 "+5V" H 18365 18023 50  0000 C CNN
-F 2 "" H 18350 17850 50  0001 C CNN
-F 3 "" H 18350 17850 50  0001 C CNN
-	1    18350 17850
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	18200 17850 18350 17850
 Text HLabel 17700 18700 3    50   Output ~ 0
 ZF
 Text HLabel 17600 18700 3    50   Output ~ 0
@@ -3015,4 +2989,30 @@ Wire Wire Line
 Wire Wire Line
 	7050 10650 8600 10650
 Connection ~ 10450 4900
+$Comp
+L 16bitCpu-rescue:+5V-power #PWR?
+U 1 1 63E4B52F
+P 18200 17850
+AR Path="/63E4B52F" Ref="#PWR?"  Part="1" 
+AR Path="/5F5F4A69/63E4B52F" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 18200 17700 50  0001 C CNN
+F 1 "+5V" H 18215 18023 50  0000 C CNN
+F 2 "" H 18200 17850 50  0001 C CNN
+F 3 "" H 18200 17850 50  0001 C CNN
+	1    18200 17850
+	0    1    1    0   
+$EndComp
+$Comp
+L 16bitCpu-rescue:+5V-power #PWR?
+U 1 1 63F666EC
+P 14100 17800
+AR Path="/63F666EC" Ref="#PWR?"  Part="1" 
+AR Path="/5F5F4A69/63F666EC" Ref="#PWR0177"  Part="1" 
+F 0 "#PWR0177" H 14100 17650 50  0001 C CNN
+F 1 "+5V" H 14115 17973 50  0000 C CNN
+F 2 "" H 14100 17800 50  0001 C CNN
+F 3 "" H 14100 17800 50  0001 C CNN
+	1    14100 17800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

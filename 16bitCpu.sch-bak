@@ -260,28 +260,6 @@ $EndComp
 Wire Wire Line
 	8950 750  8950 850 
 $Comp
-L 16bitCpu-rescue:PWR_FLAG-power #FLG01
-U 1 1 6041ADF9
-P 8950 900
-F 0 "#FLG01" H 8950 975 50  0001 C CNN
-F 1 "PWR_FLAG" V 8950 1028 50  0000 L CNN
-F 2 "" H 8950 900 50  0001 C CNN
-F 3 "~" H 8950 900 50  0001 C CNN
-	1    8950 900 
-	0    1    1    0   
-$EndComp
-$Comp
-L 16bitCpu-rescue:PWR_FLAG-power #FLG02
-U 1 1 6041B51D
-P 9100 1050
-F 0 "#FLG02" H 9100 1125 50  0001 C CNN
-F 1 "PWR_FLAG" V 9100 1178 50  0000 L CNN
-F 2 "" H 9100 1050 50  0001 C CNN
-F 3 "~" H 9100 1050 50  0001 C CNN
-	1    9100 1050
-	0    1    1    0   
-$EndComp
-$Comp
 L 16bitCpu-rescue:GND-power #PWR04
 U 1 1 6041B92E
 P 9100 1250
@@ -292,8 +270,6 @@ F 3 "" H 9100 1250 50  0001 C CNN
 	1    9100 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9100 1050 9100 1150
 $Comp
 L 16bitCpu-rescue:GND-power #PWR02
 U 1 1 604BCEDD
@@ -328,8 +304,6 @@ Wire Wire Line
 Wire Wire Line
 	8700 850  8950 850 
 Connection ~ 8950 850 
-Wire Wire Line
-	8950 850  8950 900 
 $Sheet
 S 900  12300 3150 900 
 U 5FD099BF

@@ -30,17 +30,9 @@ Wire Wire Line
 Wire Wire Line
 	2000 4000 2000 6100
 Wire Wire Line
-	4100 6100 4100 5350
-Wire Wire Line
-	4000 5350 4000 6000
-Wire Wire Line
 	2100 6000 2100 4000
 Wire Wire Line
 	2200 4000 2200 5850
-Wire Wire Line
-	3900 5850 3900 5350
-Wire Wire Line
-	3800 5350 3800 5700
 Wire Wire Line
 	2300 5700 2300 4000
 Wire Wire Line
@@ -335,27 +327,6 @@ F 1 "GND" H 4155 3327 50  0000 C CNN
 F 2 "" H 4150 3500 50  0001 C CNN
 F 3 "" H 4150 3500 50  0001 C CNN
 	1    4150 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 62492024
-P 4400 4850
-AR Path="/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/5FB94562/62492024" Ref="#PWR?"  Part="1" 
-AR Path="/61DF6CC7/62492024" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 4400 4700 50  0001 C CNN
-F 1 "+5V" H 4415 5023 50  0000 C CNN
-F 2 "" H 4400 4850 50  0001 C CNN
-F 3 "" H 4400 4850 50  0001 C CNN
-	1    4400 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -655,27 +626,6 @@ Connection ~ 6500 8600
 Wire Wire Line
 	6500 8600 10200 8600
 $Comp
-L 16bitCpu-rescue:74LS173-74xx U?
-U 1 1 6249200F
-P 3500 4850
-AR Path="/6249200F" Ref="U?"  Part="1" 
-AR Path="/5F67C726/6249200F" Ref="U?"  Part="1" 
-AR Path="/5F70885A/6249200F" Ref="U?"  Part="1" 
-AR Path="/5F733C5E/6249200F" Ref="U?"  Part="1" 
-AR Path="/602D4838/6249200F" Ref="U?"  Part="1" 
-AR Path="/603B00C8/6249200F" Ref="U?"  Part="1" 
-AR Path="/603B766D/6249200F" Ref="U?"  Part="1" 
-AR Path="/5F74778C/6249200F" Ref="U?"  Part="1" 
-AR Path="/5FB94562/6249200F" Ref="U?"  Part="1" 
-AR Path="/61DF6CC7/6249200F" Ref="U33"  Part="1" 
-F 0 "U33" H 3500 5931 50  0000 C CNN
-F 1 "74LS173" H 3500 5840 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3500 4850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 3500 4850 50  0001 C CNN
-	1    3500 4850
-	0    1    1    0   
-$EndComp
-$Comp
 L 16bitCpu-rescue:74LS245-74xx U?
 U 1 1 62492010
 P 2500 3500
@@ -866,27 +816,6 @@ F 3 "" H 1700 3500 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:+5V-power #PWR?
-U 1 1 5F6AAC53
-P 4400 4850
-AR Path="/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/5F67C726/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/5F70885A/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/5F733C5E/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/602D4838/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/603B00C8/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/603B766D/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/5F74778C/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/5FB94562/5F6AAC53" Ref="#PWR?"  Part="1" 
-AR Path="/61DF6CC7/5F6AAC53" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 4400 4700 50  0001 C CNN
-F 1 "+5V" H 4415 5023 50  0000 C CNN
-F 2 "" H 4400 4850 50  0001 C CNN
-F 3 "" H 4400 4850 50  0001 C CNN
-	1    4400 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR?
 U 1 1 5F6AAC59
 P 5800 4300
 AR Path="/5F6AAC59" Ref="#PWR?"  Part="1" 
@@ -1041,9 +970,6 @@ Text HLabel 1300 2150 0    50   3State ~ 0
 Bus13
 Text HLabel 1300 2250 0    50   3State ~ 0
 Bus14
-Connection ~ 3600 4350
-Connection ~ 4400 4850
-Connection ~ 2600 4850
 Wire Wire Line
 	10250 3050 10250 7750
 $Comp
@@ -1338,4 +1264,56 @@ Wire Wire Line
 Wire Wire Line
 	9450 7600 1150 7600
 Connection ~ 9450 4900
+Connection ~ 2600 4850
+Connection ~ 3600 4350
+Wire Wire Line
+	4100 6100 4100 5350
+Wire Wire Line
+	4000 5350 4000 6000
+Wire Wire Line
+	3900 5850 3900 5350
+Wire Wire Line
+	3800 5350 3800 5700
+$Comp
+L 16bitCpu-rescue:74LS173-74xx U?
+U 1 1 6249200F
+P 3500 4850
+AR Path="/6249200F" Ref="U?"  Part="1" 
+AR Path="/5F67C726/6249200F" Ref="U?"  Part="1" 
+AR Path="/5F70885A/6249200F" Ref="U?"  Part="1" 
+AR Path="/5F733C5E/6249200F" Ref="U?"  Part="1" 
+AR Path="/602D4838/6249200F" Ref="U?"  Part="1" 
+AR Path="/603B00C8/6249200F" Ref="U?"  Part="1" 
+AR Path="/603B766D/6249200F" Ref="U?"  Part="1" 
+AR Path="/5F74778C/6249200F" Ref="U?"  Part="1" 
+AR Path="/5FB94562/6249200F" Ref="U?"  Part="1" 
+AR Path="/61DF6CC7/6249200F" Ref="U33"  Part="1" 
+F 0 "U33" H 3500 5931 50  0000 C CNN
+F 1 "74LS173" H 3500 5840 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 3500 4850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS173" H 3500 4850 50  0001 C CNN
+	1    3500 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L 16bitCpu-rescue:+5V-power #PWR?
+U 1 1 62492024
+P 4400 4850
+AR Path="/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/5F67C726/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/5F70885A/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/5F733C5E/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/602D4838/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/603B00C8/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/603B766D/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/5F74778C/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/5FB94562/62492024" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/62492024" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 4400 4700 50  0001 C CNN
+F 1 "+5V" H 4415 5023 50  0000 C CNN
+F 2 "" H 4400 4850 50  0001 C CNN
+F 3 "" H 4400 4850 50  0001 C CNN
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
