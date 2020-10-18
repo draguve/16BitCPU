@@ -76,7 +76,7 @@ Wire Wire Line
 $Sheet
 S 6100 3150 700  2550
 U 5F67C726
-F0 "Resgister A" 50
+F0 "Resgister-A" 50
 F1 "resgister.sch" 50
 F2 "CLK" I R 6800 3800 50 
 F3 "Bus0" T L 6100 4050 50 
@@ -118,7 +118,7 @@ $EndSheet
 $Sheet
 S 6100 5900 700  2550
 U 5F74778C
-F0 "Register B" 50
+F0 "Register-B" 50
 F1 "resgister.sch" 50
 F2 "CLK" I R 6800 6600 50 
 F3 "Bus0" T L 6100 6800 50 
@@ -307,7 +307,7 @@ Connection ~ 8950 850
 $Sheet
 S 900  12300 3150 900 
 U 5FD099BF
-F0 "Control Unit" 50
+F0 "Control-Unit" 50
 F1 "Control Unit.sch" 50
 F2 "I1" I T 3200 12300 50 
 F3 "I0" I T 3100 12300 50 
@@ -724,7 +724,7 @@ Wire Wire Line
 $Sheet
 S 4050 10150 650  1900
 U 5F79B702
-F0 "Instruction Register" 50
+F0 "Instruction-Register" 50
 F1 "IR.sch" 50
 F2 "CLK" I L 4050 10400 50 
 F3 "Bus0" T R 4700 10300 50 
