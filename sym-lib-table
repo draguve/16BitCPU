@@ -5,4 +5,5 @@
   (lib (name 16bitCpu-rescue)(type Legacy)(uri ${KIPRJMOD}/16bitCpu-rescue.lib)(options "")(descr ""))
   (lib (name Device)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/Device.lib)(options "")(descr ""))
   (lib (name AT28C256)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/ROM/AT28C256.lib)(options "")(descr ""))
+  (lib (name Timer)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/Timer.lib)(options "")(descr ""))
 )
