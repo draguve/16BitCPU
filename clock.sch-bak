@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 21
+Sheet 12 21
 Title ""
 Date ""
 Rev ""
@@ -566,8 +566,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 1700 9350 3550
 Wire Wire Line
-	9350 3550 2250 3550
-Wire Wire Line
 	2250 3550 2250 4200
 Wire Wire Line
 	2250 4200 3300 4200
@@ -583,9 +581,9 @@ Wire Wire Line
 Wire Wire Line
 	1800 4750 1800 3350
 Wire Wire Line
-	1800 3350 6900 3350
+	1800 3350 5900 3350
 Wire Wire Line
-	6900 3350 6900 1700
+	6900 3350 6900 3150
 Wire Wire Line
 	6900 1700 6250 1700
 Wire Wire Line
@@ -682,44 +680,40 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 5650 6250 50  0001 C CNN
 	5    5650 6250
 	1    0    0    -1  
 $EndComp
-$Comp
-L 16bitCpu-rescue:LM555xN-Timer U?
-U 1 1 60AA52FF
-P 2700 1900
-AR Path="/60AA52FF" Ref="U?"  Part="1" 
-AR Path="/5F75E433/60AA52FF" Ref="U38"  Part="1" 
-F 0 "U38" H 2700 2481 50  0000 C CNN
-F 1 "LM555xN" H 2700 2390 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 3350 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 3550 1500 50  0001 C CNN
-	1    2700 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1600 1900 1600 2350
 $Comp
-L 16bitCpu-rescue:LM555xN-Timer U?
-U 1 1 60AB8137
-P 5750 1900
-AR Path="/60AB8137" Ref="U?"  Part="1" 
-AR Path="/5F75E433/60AB8137" Ref="U42"  Part="1" 
-F 0 "U42" H 5750 2481 50  0000 C CNN
-F 1 "LM555xN" H 5750 2390 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 6400 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 6600 1500 50  0001 C CNN
-	1    5750 1900
+L Timer:LMC555xN U?
+U 1 1 5F9C497D
+P 2700 1900
+F 0 "U?" H 2700 2481 50  0000 C CNN
+F 1 "LMC555xN" H 2700 2390 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3350 1500 50  0001 C CNN
+F 3 "" H 3550 1500 50  0001 C CNN
+	1    2700 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L 16bitCpu-rescue:LM555xN-Timer U?
-U 1 1 60AB9E78
+L Timer:LMC555xN U?
+U 1 1 5F9DBE25
+P 5750 1900
+F 0 "U?" H 5750 2481 50  0000 C CNN
+F 1 "LMC555xN" H 5750 2390 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6400 1500 50  0001 C CNN
+F 3 "" H 6600 1500 50  0001 C CNN
+	1    5750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3550 9350 3550
+$Comp
+L Timer:LMC555xN U?
+U 1 1 5F9F76EE
 P 8450 1900
-AR Path="/60AB9E78" Ref="U?"  Part="1" 
-AR Path="/5F75E433/60AB9E78" Ref="U43"  Part="1" 
-F 0 "U43" H 8450 2481 50  0000 C CNN
-F 1 "LM555xN" H 8450 2390 50  0000 C CNN
+F 0 "U?" H 8450 2481 50  0000 C CNN
+F 1 "LMC555xN" H 8450 2390 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 9100 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 9300 1500 50  0001 C CNN
+F 3 "" H 9300 1500 50  0001 C CNN
 	1    8450 1900
 	1    0    0    -1  
 $EndComp
