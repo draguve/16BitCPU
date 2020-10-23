@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 17 21
+Sheet 16 21
 Title ""
 Date ""
 Rev ""
@@ -1153,4 +1153,67 @@ Wire Wire Line
 Connection ~ 10100 5300
 Wire Wire Line
 	1600 7900 10200 7900
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FC9F24C
+P 13800 4300
+AR Path="/5FC9F24C" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B702/5FC9F24C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13800 4150 50  0001 C CNN
+F 1 "VCC" H 13815 4473 50  0000 C CNN
+F 2 "" H 13800 4300 50  0001 C CNN
+F 3 "" H 13800 4300 50  0001 C CNN
+	1    13800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FC9F252
+P 13800 4600
+AR Path="/5FC9F252" Ref="#PWR?"  Part="1" 
+AR Path="/5F75E433/5FC9F252" Ref="#PWR?"  Part="1" 
+AR Path="/5F79B702/5FC9F252" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13800 4350 50  0001 C CNN
+F 1 "GND" H 13805 4427 50  0000 C CNN
+F 2 "" H 13800 4600 50  0001 C CNN
+F 3 "" H 13800 4600 50  0001 C CNN
+	1    13800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 4300 13900 4300
+Wire Wire Line
+	13900 4600 13800 4600
+$Comp
+L Device:C C?
+U 1 1 5FC9F25A
+P 13700 4450
+AR Path="/5F75E433/5FC9F25A" Ref="C?"  Part="1" 
+AR Path="/5F79B702/5FC9F25A" Ref="C?"  Part="1" 
+F 0 "C?" H 13815 4496 50  0000 L CNN
+F 1 "0.1uF" H 13815 4405 50  0000 L CNN
+F 2 "" H 13738 4300 50  0001 C CNN
+F 3 "" H 13700 4450 50  0001 C CNN
+	1    13700 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 4300 13700 4300
+Connection ~ 13800 4300
+Wire Wire Line
+	13700 4600 13800 4600
+Connection ~ 13800 4600
+$Comp
+L Device:C C?
+U 1 1 5FC9F264
+P 13900 4450
+AR Path="/5F75E433/5FC9F264" Ref="C?"  Part="1" 
+AR Path="/5F79B702/5FC9F264" Ref="C?"  Part="1" 
+F 0 "C?" H 14015 4496 50  0000 L CNN
+F 1 "0.1uF" H 14015 4405 50  0000 L CNN
+F 2 "" H 13938 4300 50  0001 C CNN
+F 3 "" H 13900 4450 50  0001 C CNN
+	1    13900 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

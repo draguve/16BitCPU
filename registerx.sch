@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 21
+Sheet 10 21
 Title ""
 Date ""
 Rev ""
@@ -1314,6 +1314,69 @@ F 1 "+5V" H 4415 5023 50  0000 C CNN
 F 2 "" H 4400 4850 50  0001 C CNN
 F 3 "" H 4400 4850 50  0001 C CNN
 	1    4400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FC7F2B9
+P 11750 2750
+AR Path="/5FC7F2B9" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5FC7F2B9" Ref="#PWR0267"  Part="1" 
+F 0 "#PWR0267" H 11750 2600 50  0001 C CNN
+F 1 "VCC" H 11765 2923 50  0000 C CNN
+F 2 "" H 11750 2750 50  0001 C CNN
+F 3 "" H 11750 2750 50  0001 C CNN
+	1    11750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FC7F2BF
+P 11750 3050
+AR Path="/5FC7F2BF" Ref="#PWR?"  Part="1" 
+AR Path="/5F75E433/5FC7F2BF" Ref="#PWR?"  Part="1" 
+AR Path="/61DF6CC7/5FC7F2BF" Ref="#PWR0268"  Part="1" 
+F 0 "#PWR0268" H 11750 2800 50  0001 C CNN
+F 1 "GND" H 11755 2877 50  0000 C CNN
+F 2 "" H 11750 3050 50  0001 C CNN
+F 3 "" H 11750 3050 50  0001 C CNN
+	1    11750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 2750 11850 2750
+Wire Wire Line
+	11850 3050 11750 3050
+$Comp
+L Device:C C?
+U 1 1 5FC7F2C7
+P 11650 2900
+AR Path="/5F75E433/5FC7F2C7" Ref="C?"  Part="1" 
+AR Path="/61DF6CC7/5FC7F2C7" Ref="C14"  Part="1" 
+F 0 "C14" H 11765 2946 50  0000 L CNN
+F 1 "0.1uF" H 11765 2855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 11688 2750 50  0001 C CNN
+F 3 "" H 11650 2900 50  0001 C CNN
+	1    11650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 2750 11650 2750
+Connection ~ 11750 2750
+Wire Wire Line
+	11650 3050 11750 3050
+Connection ~ 11750 3050
+$Comp
+L Device:C C?
+U 1 1 5FC7F2D1
+P 11850 2900
+AR Path="/5F75E433/5FC7F2D1" Ref="C?"  Part="1" 
+AR Path="/61DF6CC7/5FC7F2D1" Ref="C15"  Part="1" 
+F 0 "C15" H 11965 2946 50  0000 L CNN
+F 1 "0.1uF" H 11965 2855 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 11888 2750 50  0001 C CNN
+F 3 "" H 11850 2900 50  0001 C CNN
+	1    11850 2900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

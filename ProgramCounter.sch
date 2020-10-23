@@ -963,4 +963,67 @@ Wire Wire Line
 Connection ~ 6100 6000
 Wire Wire Line
 	6100 6000 4150 6000
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FB038A7
+P 13950 4500
+AR Path="/5FB038A7" Ref="#PWR?"  Part="1" 
+AR Path="/5F6ACD14/5FB038A7" Ref="#PWR0263"  Part="1" 
+F 0 "#PWR0263" H 13950 4350 50  0001 C CNN
+F 1 "VCC" H 13965 4673 50  0000 C CNN
+F 2 "" H 13950 4500 50  0001 C CNN
+F 3 "" H 13950 4500 50  0001 C CNN
+	1    13950 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FB038AD
+P 13950 4800
+AR Path="/5FB038AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F75E433/5FB038AD" Ref="#PWR?"  Part="1" 
+AR Path="/5F6ACD14/5FB038AD" Ref="#PWR0264"  Part="1" 
+F 0 "#PWR0264" H 13950 4550 50  0001 C CNN
+F 1 "GND" H 13955 4627 50  0000 C CNN
+F 2 "" H 13950 4800 50  0001 C CNN
+F 3 "" H 13950 4800 50  0001 C CNN
+	1    13950 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 4500 14050 4500
+Wire Wire Line
+	14050 4800 13950 4800
+$Comp
+L Device:C C?
+U 1 1 5FB038B5
+P 13850 4650
+AR Path="/5F75E433/5FB038B5" Ref="C?"  Part="1" 
+AR Path="/5F6ACD14/5FB038B5" Ref="C10"  Part="1" 
+F 0 "C10" H 13965 4696 50  0000 L CNN
+F 1 "0.1uF" H 13965 4605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 13888 4500 50  0001 C CNN
+F 3 "" H 13850 4650 50  0001 C CNN
+	1    13850 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 4500 13850 4500
+Connection ~ 13950 4500
+Wire Wire Line
+	13850 4800 13950 4800
+Connection ~ 13950 4800
+$Comp
+L Device:C C?
+U 1 1 5FB038BF
+P 14050 4650
+AR Path="/5F75E433/5FB038BF" Ref="C?"  Part="1" 
+AR Path="/5F6ACD14/5FB038BF" Ref="C11"  Part="1" 
+F 0 "C11" H 14165 4696 50  0000 L CNN
+F 1 "0.1uF" H 14165 4605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 14088 4500 50  0001 C CNN
+F 3 "" H 14050 4650 50  0001 C CNN
+	1    14050 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

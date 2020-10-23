@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 20 21
+Sheet 19 21
 Title ""
 Date ""
 Rev ""
@@ -2263,4 +2263,130 @@ Wire Wire Line
 	1000 650  1000 14200
 Wire Wire Line
 	1500 10700 16250 10700
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FCB0FE2
+P 20400 4800
+AR Path="/5FCB0FE2" Ref="#PWR?"  Part="1" 
+AR Path="/5F681977/5FCB0FE2" Ref="#PWR0277"  Part="1" 
+F 0 "#PWR0277" H 20400 4650 50  0001 C CNN
+F 1 "VCC" H 20415 4973 50  0000 C CNN
+F 2 "" H 20400 4800 50  0001 C CNN
+F 3 "" H 20400 4800 50  0001 C CNN
+	1    20400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FCB0FE8
+P 20400 5100
+AR Path="/5FCB0FE8" Ref="#PWR?"  Part="1" 
+AR Path="/5F75E433/5FCB0FE8" Ref="#PWR?"  Part="1" 
+AR Path="/5F681977/5FCB0FE8" Ref="#PWR0278"  Part="1" 
+F 0 "#PWR0278" H 20400 4850 50  0001 C CNN
+F 1 "GND" H 20405 4927 50  0000 C CNN
+F 2 "" H 20400 5100 50  0001 C CNN
+F 3 "" H 20400 5100 50  0001 C CNN
+	1    20400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20400 4800 20500 4800
+Wire Wire Line
+	20500 5100 20400 5100
+$Comp
+L Device:C C?
+U 1 1 5FCB0FF0
+P 20300 4950
+AR Path="/5F75E433/5FCB0FF0" Ref="C?"  Part="1" 
+AR Path="/5F681977/5FCB0FF0" Ref="C24"  Part="1" 
+F 0 "C24" H 20415 4996 50  0000 L CNN
+F 1 "0.1uF" H 20415 4905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 20338 4800 50  0001 C CNN
+F 3 "" H 20300 4950 50  0001 C CNN
+	1    20300 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20400 4800 20300 4800
+Connection ~ 20400 4800
+Wire Wire Line
+	20300 5100 20400 5100
+Connection ~ 20400 5100
+$Comp
+L Device:C C?
+U 1 1 5FCB0FFA
+P 20500 4950
+AR Path="/5F75E433/5FCB0FFA" Ref="C?"  Part="1" 
+AR Path="/5F681977/5FCB0FFA" Ref="C25"  Part="1" 
+F 0 "C25" H 20615 4996 50  0000 L CNN
+F 1 "0.1uF" H 20615 4905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 20538 4800 50  0001 C CNN
+F 3 "" H 20500 4950 50  0001 C CNN
+	1    20500 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FCF0944
+P 21000 4800
+AR Path="/5FCF0944" Ref="#PWR?"  Part="1" 
+AR Path="/5F681977/5FCF0944" Ref="#PWR0279"  Part="1" 
+F 0 "#PWR0279" H 21000 4650 50  0001 C CNN
+F 1 "VCC" H 21015 4973 50  0000 C CNN
+F 2 "" H 21000 4800 50  0001 C CNN
+F 3 "" H 21000 4800 50  0001 C CNN
+	1    21000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FCF094A
+P 21000 5100
+AR Path="/5FCF094A" Ref="#PWR?"  Part="1" 
+AR Path="/5F75E433/5FCF094A" Ref="#PWR?"  Part="1" 
+AR Path="/5F681977/5FCF094A" Ref="#PWR0280"  Part="1" 
+F 0 "#PWR0280" H 21000 4850 50  0001 C CNN
+F 1 "GND" H 21005 4927 50  0000 C CNN
+F 2 "" H 21000 5100 50  0001 C CNN
+F 3 "" H 21000 5100 50  0001 C CNN
+	1    21000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21000 4800 21100 4800
+Wire Wire Line
+	21100 5100 21000 5100
+$Comp
+L Device:C C?
+U 1 1 5FCF0952
+P 20900 4950
+AR Path="/5F75E433/5FCF0952" Ref="C?"  Part="1" 
+AR Path="/5F681977/5FCF0952" Ref="C26"  Part="1" 
+F 0 "C26" H 21015 4996 50  0000 L CNN
+F 1 "0.1uF" H 21015 4905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 20938 4800 50  0001 C CNN
+F 3 "" H 20900 4950 50  0001 C CNN
+	1    20900 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21000 4800 20900 4800
+Connection ~ 21000 4800
+Wire Wire Line
+	20900 5100 21000 5100
+Connection ~ 21000 5100
+$Comp
+L Device:C C?
+U 1 1 5FCF095C
+P 21100 4950
+AR Path="/5F75E433/5FCF095C" Ref="C?"  Part="1" 
+AR Path="/5F681977/5FCF095C" Ref="C27"  Part="1" 
+F 0 "C27" H 21215 4996 50  0000 L CNN
+F 1 "0.1uF" H 21215 4905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 21138 4800 50  0001 C CNN
+F 3 "" H 21100 4950 50  0001 C CNN
+	1    21100 4950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

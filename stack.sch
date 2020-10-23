@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 21
+Sheet 8 21
 Title ""
 Date ""
 Rev ""
@@ -1324,4 +1324,67 @@ Wire Wire Line
 	7800 3650 9250 3650
 Wire Wire Line
 	7600 3450 8900 3450
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FD411B2
+P 11350 2900
+AR Path="/5FD411B2" Ref="#PWR?"  Part="1" 
+AR Path="/61968B9B/5FD411B2" Ref="#PWR0265"  Part="1" 
+F 0 "#PWR0265" H 11350 2750 50  0001 C CNN
+F 1 "VCC" H 11365 3073 50  0000 C CNN
+F 2 "" H 11350 2900 50  0001 C CNN
+F 3 "" H 11350 2900 50  0001 C CNN
+	1    11350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FD411B8
+P 11350 3200
+AR Path="/5FD411B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F75E433/5FD411B8" Ref="#PWR?"  Part="1" 
+AR Path="/61968B9B/5FD411B8" Ref="#PWR0266"  Part="1" 
+F 0 "#PWR0266" H 11350 2950 50  0001 C CNN
+F 1 "GND" H 11355 3027 50  0000 C CNN
+F 2 "" H 11350 3200 50  0001 C CNN
+F 3 "" H 11350 3200 50  0001 C CNN
+	1    11350 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 2900 11450 2900
+Wire Wire Line
+	11450 3200 11350 3200
+$Comp
+L Device:C C?
+U 1 1 5FD411C0
+P 11250 3050
+AR Path="/5F75E433/5FD411C0" Ref="C?"  Part="1" 
+AR Path="/61968B9B/5FD411C0" Ref="C12"  Part="1" 
+F 0 "C12" H 11365 3096 50  0000 L CNN
+F 1 "0.1uF" H 11365 3005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 11288 2900 50  0001 C CNN
+F 3 "" H 11250 3050 50  0001 C CNN
+	1    11250 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 2900 11250 2900
+Connection ~ 11350 2900
+Wire Wire Line
+	11250 3200 11350 3200
+Connection ~ 11350 3200
+$Comp
+L Device:C C?
+U 1 1 5FD411CA
+P 11450 3050
+AR Path="/5F75E433/5FD411CA" Ref="C?"  Part="1" 
+AR Path="/61968B9B/5FD411CA" Ref="C13"  Part="1" 
+F 0 "C13" H 11565 3096 50  0000 L CNN
+F 1 "0.1uF" H 11565 3005 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal" H 11488 2900 50  0001 C CNN
+F 3 "" H 11450 3050 50  0001 C CNN
+	1    11450 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
