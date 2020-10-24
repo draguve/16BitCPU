@@ -76,7 +76,7 @@ Wire Wire Line
 $Sheet
 S 6100 3150 700  2550
 U 5F67C726
-F0 "Resgister-A" 50
+F0 "Register-A" 50
 F1 "resgister.sch" 50
 F2 "CLK" I R 6800 3800 50 
 F3 "Bus0" T L 6100 4050 50 

@@ -61,30 +61,6 @@ Wire Wire Line
 	5350 4100 5350 4000
 Wire Wire Line
 	3800 4350 3800 1150
-Connection ~ 3800 1150
-Connection ~ 3900 1050
-Connection ~ 4000 950 
-Connection ~ 4100 850 
-Wire Wire Line
-	3900 1050 9850 1050
-Wire Wire Line
-	3800 1150 9850 1150
-Wire Wire Line
-	4000 950  9850 950 
-Wire Wire Line
-	4100 850  9850 850 
-Connection ~ 5350 1550
-Connection ~ 5450 1450
-Connection ~ 5550 1350
-Connection ~ 5650 1250
-Wire Wire Line
-	5650 1250 9850 1250
-Wire Wire Line
-	5550 1350 9850 1350
-Wire Wire Line
-	5450 1450 9850 1450
-Wire Wire Line
-	5350 1550 9850 1550
 Wire Wire Line
 	1300 1750 6200 1750
 Wire Wire Line
@@ -171,30 +147,6 @@ Wire Wire Line
 Connection ~ 6800 2350
 Wire Wire Line
 	6800 2350 9450 2350
-Connection ~ 7900 1950
-Wire Wire Line
-	7900 1950 9850 1950
-Connection ~ 8000 1850
-Wire Wire Line
-	8000 1850 9850 1850
-Connection ~ 8100 1750
-Wire Wire Line
-	8100 1750 9850 1750
-Connection ~ 8200 1650
-Wire Wire Line
-	8200 1650 9850 1650
-Connection ~ 9450 2350
-Wire Wire Line
-	9450 2350 9850 2350
-Connection ~ 9550 2250
-Wire Wire Line
-	9550 2250 9850 2250
-Connection ~ 9650 2150
-Wire Wire Line
-	9650 2150 9850 2150
-Connection ~ 9750 2050
-Wire Wire Line
-	9750 2050 9850 2050
 Wire Wire Line
 	8100 6150 8100 6800
 $Comp
@@ -478,9 +430,6 @@ Wire Wire Line
 Connection ~ 7200 600 
 Wire Wire Line
 	8750 3800 8750 600 
-Connection ~ 8750 600 
-Wire Wire Line
-	8750 600  9850 600 
 Wire Wire Line
 	4650 3000 4650 600 
 Wire Wire Line
@@ -597,9 +546,6 @@ Wire Wire Line
 	6500 5300 6500 8600
 Wire Wire Line
 	7100 4800 7100 5300
-Connection ~ 6500 8600
-Wire Wire Line
-	6500 8600 10200 8600
 $Comp
 L 16bitCpu-rescue:74LS173-74xx U?
 U 1 1 616C378C
@@ -1267,9 +1213,6 @@ Wire Wire Line
 	7700 3650 7800 3650
 Wire Wire Line
 	4700 8100 8950 8100
-Connection ~ 8950 8100
-Wire Wire Line
-	8950 8100 10200 8100
 Wire Wire Line
 	7700 3650 7700 5150
 Wire Wire Line
