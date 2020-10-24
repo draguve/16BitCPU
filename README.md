@@ -15,3 +15,5 @@ The cpu has 2 Resgisters , an Instruction Register,A Memory Access Register and 
 ![Control Unit](Photos/ControlUnit-Control-Unit.svg)
 ![IR](Photos/IR-Instruction-Register.svg)
 ![LEDS](Photos/led16-LEDS.svg)
+![Display](Photos/display-Display.svg)
+![Power](Photos/power-Power.svg)
