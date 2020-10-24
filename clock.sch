@@ -517,19 +517,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2700 4550 50  0001 C CNN
 $EndComp
 $Comp
 L 16bitCpu-rescue:74LS04-74xx U?
-U 2 1 5F7D01D9
-P 3600 5550
-AR Path="/5F7D01D9" Ref="U?"  Part="2" 
-AR Path="/5F75E433/5F7D01D9" Ref="U32"  Part="2" 
-F 0 "U32" H 3600 5867 50  0000 C CNN
-F 1 "74LS04" H 3600 5776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3600 5550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3600 5550 50  0001 C CNN
-	2    3600 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:74LS04-74xx U?
 U 3 1 5F7D1AFC
 P 7900 3950
 AR Path="/5F7D1AFC" Ref="U?"  Part="3" 
@@ -555,8 +542,6 @@ Wire Wire Line
 	4550 4500 4950 4500
 Wire Wire Line
 	5550 4400 6100 4400
-Wire Wire Line
-	3900 5550 5650 5550
 Wire Wire Line
 	5650 5550 5650 4600
 Wire Wire Line
@@ -593,10 +578,8 @@ Wire Wire Line
 Connection ~ 7250 4500
 Wire Wire Line
 	8200 3950 8550 3950
-Wire Wire Line
-	1500 5550 3300 5550
-Text HLabel 1500 5550 0    50   Input ~ 0
-HLT
+Text HLabel 2100 5550 0    50   Input ~ 0
+~HLT
 Text HLabel 8550 3950 2    50   Output ~ 0
 ~CLK
 Text HLabel 8550 4500 2    50   Output ~ 0
@@ -775,4 +758,6 @@ F 3 "" H 10550 1600 50  0001 C CNN
 	1    10550 1600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2100 5550 5650 5550
 $EndSCHEMATC
