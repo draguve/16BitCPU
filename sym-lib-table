@@ -7,4 +7,5 @@
   (lib (name AT28C256)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/ROM/AT28C256.lib)(options "")(descr ""))
   (lib (name Timer)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/Timer.lib)(options "")(descr ""))
   (lib (name SparkFun-Connectors)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/SparkFun-Connectors.lib)(options "")(descr ""))
+  (lib (name Display_Character)(type Legacy)(uri ${KIPRJMOD}/SymbolLibs/Display_Character.lib)(options "")(descr ""))
 )

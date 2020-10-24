@@ -1,4 +1,4 @@
-18979815323728179
+18986229103720179
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74396,6 +74396,13 @@ ROM
 40
 40
 ROM
+ATX24_RIGHT_ANGLE
+MOLEX MINI-FIT JR. - 24 PIN, RIGHT ANGLE
+MOLEX MINI-FIT JR. - 24 PIN, RIGHT ANGLE
+0
+24
+24
+ROM
 DIP1555W45P254L3733H482Q28
 
 
@@ -74416,6 +74423,27 @@ Potentiometer-5.5mm
 0
 3
 3
+ROM
+RC1602A
+http://www.raystar-optronics.com/down.php?ProID=18
+LCD 16x2 Alphanumeric 16pin
+0
+22
+18
+ROM
+SW_MINI-SPDT-SW
+
+
+0
+3
+3
+ROM
+WC1602A
+LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
 ROM
 ZIF-AT28C64B-15PU
 
