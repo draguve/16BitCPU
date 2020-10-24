@@ -1,0 +1,227 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 22 22
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SparkFun-Connectors:ATX24RH J1
+U 1 1 5F98F863
+P 3050 2300
+F 0 "J1" H 3050 3360 45  0000 C CNN
+F 1 "ATX24RH" H 3050 3276 45  0000 C CNN
+F 2 "ROM:ATX24_RIGHT_ANGLE" H 3050 3250 20  0001 C CNN
+F 3 "" H 3050 2300 50  0001 C CNN
+F 4 "CONN-09674" H 3050 3181 60  0000 C CNN "Field4"
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:+5V-power #PWR?
+U 1 1 5FA0A59B
+P 1400 1750
+AR Path="/5FA0A59B" Ref="#PWR?"  Part="1" 
+AR Path="/5F983F69/5FA0A59B" Ref="#PWR0298"  Part="1" 
+F 0 "#PWR0298" H 1400 1600 50  0001 C CNN
+F 1 "+5V" H 1415 1923 50  0000 C CNN
+F 2 "" H 1400 1750 50  0001 C CNN
+F 3 "" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1750 1400 1850
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FA0A5A8
+P 1550 3300
+AR Path="/5FA0A5A8" Ref="#PWR?"  Part="1" 
+AR Path="/5F983F69/5FA0A5A8" Ref="#PWR0299"  Part="1" 
+F 0 "#PWR0299" H 1550 3050 50  0001 C CNN
+F 1 "GND" H 1555 3127 50  0000 C CNN
+F 2 "" H 1550 3300 50  0001 C CNN
+F 3 "" H 1550 3300 50  0001 C CNN
+	1    1550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FA0A5B2
+P 1150 1750
+AR Path="/5FA0A5B2" Ref="#PWR?"  Part="1" 
+AR Path="/5F983F69/5FA0A5B2" Ref="#PWR0300"  Part="1" 
+F 0 "#PWR0300" H 1150 1600 50  0001 C CNN
+F 1 "VCC" H 1165 1923 50  0000 C CNN
+F 2 "" H 1150 1750 50  0001 C CNN
+F 3 "" H 1150 1750 50  0001 C CNN
+	1    1150 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1750 1150 1850
+Wire Wire Line
+	1150 1850 1400 1850
+Connection ~ 1400 1850
+Wire Wire Line
+	1400 1850 1550 1850
+Wire Wire Line
+	1700 1850 1700 1750
+$Comp
+L 16bitCpu-rescue:+5V-power #PWR?
+U 1 1 5FA0A5C4
+P 1700 1750
+AR Path="/5FA0A5C4" Ref="#PWR?"  Part="1" 
+AR Path="/5F983F69/5FA0A5C4" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 1700 1600 50  0001 C CNN
+F 1 "+5V-power" H 1715 1923 50  0000 C CNN
+F 2 "" H 1700 1750 50  0001 C CNN
+F 3 "" H 1700 1750 50  0001 C CNN
+	1    1700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1850 1950 1850
+Wire Wire Line
+	1950 1850 1950 1750
+Connection ~ 1700 1850
+$Comp
+L 16bitCpu-rescue:VCC-power #PWR?
+U 1 1 5FA0A5CD
+P 1950 1750
+AR Path="/5FA0A5CD" Ref="#PWR?"  Part="1" 
+AR Path="/5F983F69/5FA0A5CD" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 1950 1600 50  0001 C CNN
+F 1 "VCC-power" H 1965 1923 50  0000 C CNN
+F 2 "" H 1950 1750 50  0001 C CNN
+F 3 "" H 1950 1750 50  0001 C CNN
+	1    1950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2000 2200 2000
+Wire Wire Line
+	1550 2000 1550 1850
+Connection ~ 1550 1850
+Wire Wire Line
+	1550 1850 1700 1850
+$Comp
+L 16bitCpu-rescue:PWR_FLAG-power #FLG0101
+U 1 1 5FA0F4E7
+P 2200 2000
+F 0 "#FLG0101" H 2200 2075 50  0001 C CNN
+F 1 "PWR_FLAG-power" H 2200 2173 50  0000 C CNN
+F 2 "" H 2200 2000 50  0001 C CNN
+F 3 "" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2000 1550 2000
+$Comp
+L 16bitCpu-rescue:SW_SPDT-Switch SW4
+U 1 1 5FA154E6
+P 4150 3200
+F 0 "SW4" V 4104 3348 50  0000 L CNN
+F 1 "SW_SPDT-Switch" V 4195 3348 50  0000 L CNN
+F 2 "ROM:SW_MINI-SPDT-SW" H 4150 3200 50  0001 C CNN
+F 3 "" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 2800 4150 2800
+Wire Wire Line
+	4150 2800 4150 3000
+Wire Wire Line
+	1550 3300 1550 3200
+Wire Wire Line
+	2050 3000 1750 3000
+Connection ~ 2050 3000
+$Comp
+L 16bitCpu-rescue:PWR_FLAG-power #FLG0102
+U 1 1 5FA10323
+P 2050 3000
+F 0 "#FLG0102" H 2050 3075 50  0001 C CNN
+F 1 "PWR_FLAG-power" H 2050 3173 50  0000 C CNN
+F 2 "" H 2050 3000 50  0001 C CNN
+F 3 "" H 2050 3000 50  0001 C CNN
+	1    2050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3000 1750 3200
+Wire Wire Line
+	2500 3000 2050 3000
+Wire Wire Line
+	2000 3200 2000 3300
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FA0A5BE
+P 2000 3300
+AR Path="/5FA0A5BE" Ref="#PWR?"  Part="1" 
+AR Path="/5F983F69/5FA0A5BE" Ref="#PWR0303"  Part="1" 
+F 0 "#PWR0303" H 2000 3050 50  0001 C CNN
+F 1 "GND-power" H 2005 3127 50  0000 C CNN
+F 2 "" H 2000 3300 50  0001 C CNN
+F 3 "" H 2000 3300 50  0001 C CNN
+	1    2000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3200 2000 3200
+Wire Wire Line
+	1750 3200 1750 3300
+Connection ~ 1750 3200
+Wire Wire Line
+	1550 3200 1750 3200
+$Comp
+L 16bitCpu-rescue:GND-power #PWR?
+U 1 1 5FA0A5A2
+P 1750 3300
+AR Path="/5FA0A5A2" Ref="#PWR?"  Part="1" 
+AR Path="/5F983F69/5FA0A5A2" Ref="#PWR0304"  Part="1" 
+F 0 "#PWR0304" H 1750 3050 50  0001 C CNN
+F 1 "GND" H 1755 3127 50  0000 C CNN
+F 2 "" H 1750 3300 50  0001 C CNN
+F 3 "" H 1750 3300 50  0001 C CNN
+	1    1750 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3100 2500 3650
+Wire Wire Line
+	2500 3650 4050 3650
+Wire Wire Line
+	4050 3650 4050 3400
+NoConn ~ 4250 3400
+NoConn ~ 2500 2200
+NoConn ~ 2500 2400
+NoConn ~ 2500 2500
+NoConn ~ 2500 2600
+NoConn ~ 2500 2700
+NoConn ~ 2500 2800
+NoConn ~ 2500 2900
+NoConn ~ 2500 1900
+NoConn ~ 2500 1800
+NoConn ~ 2500 1700
+NoConn ~ 2500 1600
+NoConn ~ 3600 1600
+NoConn ~ 3600 1700
+NoConn ~ 3600 1800
+NoConn ~ 3600 1900
+NoConn ~ 3600 2300
+NoConn ~ 3600 2400
+NoConn ~ 3600 2600
+NoConn ~ 3600 2900
+NoConn ~ 3600 3100
+$EndSCHEMATC

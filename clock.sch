@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 21
+Sheet 12 22
 Title ""
 Date ""
 Rev ""
@@ -396,7 +396,7 @@ AR Path="/5F79CC11" Ref="SW?"  Part="1"
 AR Path="/5F75E433/5F79CC11" Ref="SW3"  Part="1" 
 F 0 "SW3" H 7500 2185 50  0000 C CNN
 F 1 "SW_SPDT" H 7500 2094 50  0000 C CNN
-F 2 "ROM:DPDT-pushbutton" H 7500 1900 50  0001 C CNN
+F 2 "ROM:SW_MINI-SPDT-SW" H 7500 1900 50  0001 C CNN
 F 3 "~" H 7500 1900 50  0001 C CNN
 	1    7500 1900
 	1    0    0    -1  

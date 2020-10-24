@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 1 21
+Sheet 1 22
 Title ""
 Date ""
 Rev ""
@@ -246,64 +246,6 @@ Wire Wire Line
 	6100 2800 5050 2800
 Wire Wire Line
 	5050 8300 6100 8300
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR03
-U 1 1 603C06D7
-P 8950 750
-F 0 "#PWR03" H 8950 600 50  0001 C CNN
-F 1 "+5V" H 8965 923 50  0000 C CNN
-F 2 "" H 8950 750 50  0001 C CNN
-F 3 "" H 8950 750 50  0001 C CNN
-	1    8950 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 750  8950 850 
-$Comp
-L 16bitCpu-rescue:GND-power #PWR04
-U 1 1 6041B92E
-P 9100 1250
-F 0 "#PWR04" H 9100 1000 50  0001 C CNN
-F 1 "GND" H 9105 1077 50  0000 C CNN
-F 2 "" H 9100 1250 50  0001 C CNN
-F 3 "" H 9100 1250 50  0001 C CNN
-	1    9100 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:GND-power #PWR02
-U 1 1 604BCEDD
-P 8900 1250
-F 0 "#PWR02" H 8900 1000 50  0001 C CNN
-F 1 "GND" H 8905 1077 50  0000 C CNN
-F 2 "" H 8900 1250 50  0001 C CNN
-F 3 "" H 8900 1250 50  0001 C CNN
-	1    8900 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 1250 8900 1150
-Wire Wire Line
-	8900 1150 9100 1150
-Connection ~ 9100 1150
-Wire Wire Line
-	9100 1150 9100 1250
-$Comp
-L 16bitCpu-rescue:VCC-power #PWR01
-U 1 1 604EB05F
-P 8700 750
-F 0 "#PWR01" H 8700 600 50  0001 C CNN
-F 1 "VCC" H 8715 923 50  0000 C CNN
-F 2 "" H 8700 750 50  0001 C CNN
-F 3 "" H 8700 750 50  0001 C CNN
-	1    8700 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 750  8700 850 
-Wire Wire Line
-	8700 850  8950 850 
-Connection ~ 8950 850 
 $Sheet
 S 3900 4800 750  2400
 U 61968B9B
@@ -362,50 +304,6 @@ Wire Wire Line
 	4650 5600 5750 5600
 Wire Wire Line
 	4650 5500 5800 5500
-Wire Wire Line
-	8950 850  9250 850 
-Wire Wire Line
-	9250 850  9250 750 
-Wire Wire Line
-	9100 1150 9350 1150
-$Comp
-L 16bitCpu-rescue:GND-power #PWR06
-U 1 1 5FAE3C9B
-P 9350 1250
-F 0 "#PWR06" H 9350 1000 50  0001 C CNN
-F 1 "GND-power" H 9355 1077 50  0000 C CNN
-F 2 "" H 9350 1250 50  0001 C CNN
-F 3 "" H 9350 1250 50  0001 C CNN
-	1    9350 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 16bitCpu-rescue:+5V-power #PWR05
-U 1 1 5FAE3F33
-P 9250 750
-F 0 "#PWR05" H 9250 600 50  0001 C CNN
-F 1 "+5V-power" H 9265 923 50  0000 C CNN
-F 2 "" H 9250 750 50  0001 C CNN
-F 3 "" H 9250 750 50  0001 C CNN
-	1    9250 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9250 850  9500 850 
-Wire Wire Line
-	9500 850  9500 750 
-Connection ~ 9250 850 
-$Comp
-L 16bitCpu-rescue:VCC-power #PWR07
-U 1 1 5FB3A0D7
-P 9500 750
-F 0 "#PWR07" H 9500 600 50  0001 C CNN
-F 1 "VCC-power" H 9515 923 50  0000 C CNN
-F 2 "" H 9500 750 50  0001 C CNN
-F 3 "" H 9500 750 50  0001 C CNN
-	1    9500 750 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 4050 8800 4050
 Wire Wire Line
@@ -600,8 +498,6 @@ Wire Wire Line
 	5550 11200 6850 11200
 Wire Wire Line
 	5600 11100 6850 11100
-Wire Wire Line
-	9350 1150 9350 1250
 $Sheet
 S 600  900  1850 750 
 U 5F75E433
@@ -1503,5 +1399,11 @@ F34 "~ALU_NAND_O" O B 3200 13200 50
 F35 "RAM_MEMWE" O T 2250 12300 50 
 F36 "ALTBF" I B 2600 13200 50 
 F37 "AGTBF" I B 2500 13200 50 
+$EndSheet
+$Sheet
+S 8650 800  1500 450 
+U 5F983F69
+F0 "Sheet5F983F68" 50
+F1 "power.sch" 50
 $EndSheet
 $EndSCHEMATC
